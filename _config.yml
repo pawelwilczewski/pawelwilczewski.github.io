@@ -26,6 +26,12 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:pawel.wilczewski@outlook.com"}
   - {title: Github, icon: github, url: "https://github.com/pawelwilczewski"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  # - {title: Test, icon: keyboard, url: "/feed.xml"}
+
+titleitems:
+  # - { icon: envelope, url: "/"}
+  - { icon: keyboard, url: "/"}
+  # - {title: Keyboard, icon: github, url: "/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
