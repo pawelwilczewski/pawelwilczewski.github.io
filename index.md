@@ -5,7 +5,7 @@ layout: page
 
 ## Hello, I'm Pawel
 
-Put here a framed picture of myself as it appears on LinkedIn
+<img class="pfp" src="assets/img/pfp.jpg">
 
 ## Installation
 
