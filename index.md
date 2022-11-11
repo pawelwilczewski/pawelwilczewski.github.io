@@ -7,6 +7,10 @@ layout: page
 
 <img class="pfp" src="assets/img/pfp.jpg">
 
+<center>Pawel WilczewskiI'm a game developer based in Leeds, UK.</center>
+
+<svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#twitter"></use></svg>
+
 ## Installation
 
 Just fork this [repository](https://github.com/niklasbuschmann/contrast) and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.

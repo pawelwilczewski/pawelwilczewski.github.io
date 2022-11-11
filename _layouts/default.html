@@ -30,7 +30,7 @@
 <header>
   <a href="{{ "/" | relative_url }}" class="title">
     {{ site.title | escape }}
-    {% include iconsrow.html iconsrow=site.titleitems %}
+    &nbsp<svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#keyboard"></use></svg>
   </a>
   {% include menu.html menu=pages %}
 </header>

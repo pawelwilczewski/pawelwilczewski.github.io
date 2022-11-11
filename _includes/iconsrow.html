@@ -1,7 +1,0 @@
-<link rel="stylesheet" href="{{ "/assets/css/iconsrow.css" | relative_url }}" media="screen">
-
-{%- for item in include.iconsrow -%}
-  {%- assign node = site.pages | where: "name", item.file | first -%}
-  {%- assign url = item.url | default: node.url -%}
-  <svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ item.icon }}"></use></svg>
-{%- endfor -%}
