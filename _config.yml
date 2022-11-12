@@ -20,15 +20,18 @@ icons:                     # additional icons that can be used in the text
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html"}
-  - {file: "commercial.html"}
-  - {file: "personal.html"}
-  - {file: "university.html"}
+  - {file: "commercial.html", icon: "sack-dollar"}
+  - {file: "personal.html", icon: "person"}
+  - {file: "university.html", icon: "building-columns"}
   # - {file: "categories.html"}
   # - {file: "about.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {icon: envelope, url: "mailto:pawel.wilczewski@outlook.com"}
+  - {icon: linkedin, url: "https://www.linkedin.com/in/pawel-wilczewski"}
   - {icon: github, url: "https://github.com/pawelwilczewski"}
+  - {icon: gitlab, url: "https://gitlab.com/Pawel_Wilczewski"}
+  - {icon: artstation, url: "https://www.artstation.com/pawelwilczewski"}
   - {icon: rss, url: "/feed.xml"}
 
 comments:
