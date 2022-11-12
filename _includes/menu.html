@@ -1,21 +1,17 @@
 <link rel="stylesheet" href="{{ "/assets/css/menu.css" | relative_url }}" media="screen">
 <nav>
 {%- for item in include.menu -%}
-  {%- assign node = site.pages | where: "name", item.file | first | default: nil -%}
+  {%- assign node = site.pages | where: "name", item.file | first -%}
   {%- assign url = item.url | default: node.url -%}
 
-  {% if item.title %}
-    {%- assign title = item.title -%}
-  {% else %}
-    {% if node %}
-      {%- assign title = node.title -%}
-    {% else %}
-      {%- assign title = nil -%}
+  <a aria-label="{% if item.title %}{{ title }}{% else %}node.title{% endif %}" href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
+    {% if item.title %}
+      {{ item.title }}
     {% endif %}
-  {% endif %}
-
-  <a aria-label="{{ title }}" href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
-    {{ title }}{%- if item.icon -%}{%- if title -%}&nbsp{%- endif -%}<svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ item.icon }}"></use></svg>{%- endif -%}
+    {%- if item.icon -%}
+      {%- if item.title -%}&nbsp{%- endif -%}
+      <svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ item.icon }}"></use></svg>
+    {%- endif -%}
   </a>
 {%- endfor -%}
 </nav>
