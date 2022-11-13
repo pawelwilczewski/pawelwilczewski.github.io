@@ -14,9 +14,10 @@ minimal: false             # use a dark header
 
 # Menu
 
-icons:                     # additional icons that can be used in the text
+icons:                     # additional icons that can be used in the text across the website
   - {icon: keyboard}
   - {icon: location-dot}
+  - {icon: c}
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html"}
@@ -32,6 +33,7 @@ external:                  # shows a footer with social links - for available ic
   - {icon: github, url: "https://github.com/pawelwilczewski"}
   - {icon: gitlab, url: "https://gitlab.com/Pawel_Wilczewski"}
   - {icon: artstation, url: "https://www.artstation.com/pawelwilczewski"}
+  - {icon: youtube, url: "https://www.youtube.com/channel/UCOznVhJ7YslS1JAAl18K5xA"}
   - {icon: rss, url: "/feed.xml"}
 
 comments:
