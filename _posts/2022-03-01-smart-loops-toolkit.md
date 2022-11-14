@@ -1,5 +1,5 @@
 ---
-title:  "Smart Loops Toolkit"
+title: "Smart Loops Toolkit"
 layout: post
 categories: Commercial
 ---
