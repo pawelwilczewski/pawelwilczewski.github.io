@@ -28,8 +28,7 @@ p
 a
   color: $link-color
   text-decoration: inherit
-  &:hover
-    text-decoration: underline
+  transition: .2s background linear, .2s color linear
 
 header a, footer a, aside a
   color: inherit
@@ -49,6 +48,12 @@ article:not(:last-of-type)
 
 article:not(:first-of-type)
   margin-top: 4em
+
+article img
+  margin-left: auto
+  margin-right: auto
+  display: block
+  border-radius: 5px
 
 blockquote
   background: reduce(6)

@@ -15,7 +15,7 @@ The project is currently developed in Unreal Engine 4, however, I am planning on
 
 ## Gallery
 
-<iframe style="width: 100%; aspect-ratio: 1.666667;" src="https://www.youtube.com/embed/zQ9gjgUD3ZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include embed.html url="https://www.youtube.com/embed/zQ9gjgUD3ZQ" %}
 
 ![ModularFPS_Screenshot_1](/assets/img/modularfps/Screenshot_1.png)
 ![ModularFPS_Screenshot_2](/assets/img/modularfps/Screenshot_2.png)

@@ -9,6 +9,7 @@ layout: page
     <div class="title">Pawel Wilczewski</div>
     <div class="row">Game Developer & Pipeline Programmer</div>
     <div class="loc"><svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#location-dot"></use></svg> Leeds, United Kingom</div>
+    <div class="more"><a class="resume" href="/assets/docs/resume.pdf"><div class="loc">My Resume <svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#file"></use></svg></div></a></div>
     {% include menu.html menu=site.external %}
 </div>
 
@@ -20,7 +21,7 @@ I am the author of two successful Blender add-ons, [Smart Loops Toolkit](https:/
 
 I am currently enrolled in higher education, doing a Computer Science degree at the University of Leeds. My final year (provisional) project title is _Interactive Skeletal Mesh Skinning Tool for real-time Animation_.
 
-## Software and Skillset
+## Software
 
 <div>
     <a style="text-decoration:none" title="C++" href="https://isocpp.org/std">
@@ -45,6 +46,8 @@ I am currently enrolled in higher education, doing a Computer Science degree at 
         <img class="softwareicon" alt="Krita Logo" src="/assets/img/krita_logo.png">
     </a>
 </div>
+
+## Skillset
 
 <div class="skillbox">
     <div class="skill">
@@ -74,7 +77,3 @@ I am currently enrolled in higher education, doing a Computer Science degree at 
         Procedural Animation
     </div>
 </div>
-
-## Resume
-
-<object data="/assets/docs/resume.pdf#view=Fit" type="application/pdf" style="aspect-ratio: 0.69; width: 100%"></object>
