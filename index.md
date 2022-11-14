@@ -10,7 +10,7 @@ layout: page
     <div class="row">Game Developer & Pipeline Programmer</div>
     <div class="loc"><svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#location-dot"></use></svg> Leeds, United Kingom</div>
     <div class="more"><a class="resume" href="/assets/docs/resume.pdf"><div class="loc">My Resume <svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#file"></use></svg></div></a></div>
-    {% include menu.html menu=site.external %}
+    <!-- {% include menu.html menu=site.external %} -->
 </div>
 
 ## About me
@@ -23,7 +23,7 @@ I am currently enrolled in higher education, doing a Computer Science degree at 
 
 ## Software
 
-<div>
+<div class="skillbox">
     <a style="text-decoration:none" title="C++" href="https://isocpp.org/std">
         <img class="softwareicon" alt="ISO C++ Logo" src="https://isocpp.org/assets/images/cpp_logo.png">
     </a>
@@ -38,6 +38,14 @@ I am currently enrolled in higher education, doing a Computer Science degree at 
     </a>
     <a style="text-decoration:none" title="Blender Foundation" href="https://blender.org">
         <img class="softwareicon" alt="Blender Logo" src="/assets/img/blender_logo_socket.png">
+    </a>
+</div>
+<div class="skillbox">
+    <a style="text-decoration:none" title="Git" href="https://git-scm.com">
+        <img class="softwareicon" alt="Git Logo" src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.svg">
+    </a>
+    <a style="text-decoration:none" title="Unity" href="https://unity.com">
+        <img class="softwareicon" alt="Unity Logo" src="/assets/img/U_Logo_White_RGB.svg">
     </a>
     <a style="text-decoration:none" title="Substance Painter" href="https://www.adobe.com/products/substance3d-painter.html">
         <img class="softwareicon" alt="Substance Painter Logo" src="https://www.adobe.com/content/dam/cc/icons/pt_appicon_256.svg">

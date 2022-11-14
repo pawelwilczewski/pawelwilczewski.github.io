@@ -9,7 +9,7 @@ categories: Commercial
 
 ## Summary
 
-Unreal Engine Template Project to be released on Unreal Marketplace. Aiming for high-quality assets and immersive, realistic gameplay combined with fluid movement for the best user experience. There are The logic is split between C++ and Blueprints for good performance and ease of control. Networking support is incoming, as well as a plenty other features I set as a requirement for the first release.
+Unreal Engine Template Project to be released on Unreal Marketplace. Aiming for high-quality assets and immersive, realistic gameplay combined with fluid movement for the best user experience. The logic is split between `C++` and `Blueprints` for good performance and ease of control. Networking support is incoming, as well as a plenty other features I set as a requirement for the first release.
 
 The project is currently developed in Unreal Engine 4, however, I am planning on porting it to UE5 very soon. The planned release date is Q3 2023.
 
