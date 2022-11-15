@@ -39,8 +39,6 @@ I am currently enrolled in higher education, doing a Computer Science degree at 
     <a style="text-decoration:none" title="Blender Foundation" href="https://blender.org">
         <img class="softwareicon" alt="Blender Logo" src="/assets/img/blender_logo_socket.png">
     </a>
-</div>
-<div class="skillbox">
     <a style="text-decoration:none" title="Git" href="https://git-scm.com">
         <img class="softwareicon" alt="Git Logo" src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.svg">
     </a>
@@ -70,8 +68,6 @@ I am currently enrolled in higher education, doing a Computer Science degree at 
     <div class="skill">
         Pipeline Programming
     </div>
-</div>
-<div class="skillbox" style="margin-top: 1em;">
     <div class="skill">
         Graphics Programming
     </div>
