@@ -21,7 +21,6 @@ icons:                     # additional icons that can be used in the text acros
   - {icon: file}
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
   - {file: "commercial.html", icon: "sack-dollar", title: "Commercial Projects"}
   - {file: "personal.html", icon: "person", title: "Personal Projects"}
   - {file: "university.html", icon: "building-columns", title: "University Projects"}
