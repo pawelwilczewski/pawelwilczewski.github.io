@@ -15,7 +15,7 @@ layout: page
 
 ## About me
 
-I started my game development journey in 2017. Since then, I have worked on multiple projects in various game dev and computer science areas. The more notable ones I display on this website. I have been passionate about programming for many years, and I have always valued high quality.
+I started my game development journey in 2017. Since then, I have worked on multiple projects in various game dev and Computer Science areas. The more notable ones I display on this website. I have been passionate about programming for many years, and I have always valued high quality.
 
 I am the author of two successful Blender add-ons, [Smart Loops Toolkit](https://blendermarket.com/products/smart-loops-toolkit) and [UEx](https://blendermarket.com/products/uex-blender-to-unreal). Among other projects, I currently work on [ModularFPS](/commercial/modularfps/) -- an Unreal Engine 5 template for rapid and quality First Person Shooter development.
 
