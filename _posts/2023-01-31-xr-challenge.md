@@ -4,18 +4,19 @@ layout: post
 categories: Personal
 ---
 
-![XR_Challenge_Thumbnail](/assets/img/xr_challenge/xr_challenge_thumbnail.png)
+![XR_Challenge_Thumbnail](/assets/img/xr-challenge/xr_challenge_thumbnail.png)
 
 
 ## Summary
 
 My `Unity` game submission to the [XR Games Futures Programming Test](https://github.com/XRGames/xr-challenge). Time spent ~15 days.
+
 The game features:
 - Event-based architecture
 - Custom and reusable movement component made from scratch not using `Rigidbody` or `Unity CharacterController`
     - Jumping, dashing, crouching
     - High level of customisation
-    ![MovementComponentCustomisation](/assets/img/xr_challenge/movementcomponent.png)
+    ![MovementComponentCustomisation](/assets/img/xr-challenge/movementcomponent.png)
 - Lift (elevator) system
 - Pickup and interaction systems
 - Fully animated characters
