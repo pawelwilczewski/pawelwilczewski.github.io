@@ -19,4 +19,4 @@ The game features:
 
 Access and play the game on the dedicated [itch.io page](https://pawelwilczewski.itch.io/xr-challenge-puzzle-game).
 I recommed playing the game before watching the walkthrough video:
-{% include embed.html url="https://youtu.be/embed/TvU-wA8JbFs" %}
+{% include embed.html url="https://www.youtube.com/embed/TvU-wA8JbFs" %}
