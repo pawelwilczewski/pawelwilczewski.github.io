@@ -30,6 +30,12 @@ I am currently enrolled in higher education, doing a Computer Science degree at 
     <a style="text-decoration:none" title="Unreal Engine" href="https://www.unrealengine.com">
         <img class="softwareicon" alt="Unreal Engine Logo" src="/assets/img/UE_Logo_icon-only_white.svg">
     </a>
+    <a style="text-decoration:none" title="Unity" href="https://unity.com">
+        <img class="softwareicon" alt="Unity Logo" src="/assets/img/U_Logo_White_RGB.svg" style="height: 5em; margin-top: -0.446em;">
+    </a>
+    <a style="text-decoration:none" title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
+        <img class="softwareicon" alt="C# Logo" src="/assets/img/csharp.svg">
+    </a>
     <a style="text-decoration:none" title="OpenGL" href="https://opengl.org">
         <img class="softwareicon" alt="OpenGL Logo" src="https://www.khronos.org/assets/images/api_logos/opengl.svg">
     </a>
@@ -41,9 +47,6 @@ I am currently enrolled in higher education, doing a Computer Science degree at 
     </a>
     <a style="text-decoration:none" title="Git" href="https://git-scm.com">
         <img class="softwareicon" alt="Git Logo" src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.svg">
-    </a>
-    <a style="text-decoration:none" title="Unity" href="https://unity.com">
-        <img class="softwareicon" alt="Unity Logo" src="/assets/img/U_Logo_White_RGB.svg">
     </a>
     <a style="text-decoration:none" title="Substance Painter" href="https://www.adobe.com/products/substance3d-painter.html">
         <img class="softwareicon" alt="Substance Painter Logo" src="https://www.adobe.com/content/dam/cc/icons/pt_appicon_256.svg">
