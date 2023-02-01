@@ -77,7 +77,7 @@ def generate(robot_capacity, rooms_count, additional_doors_count, locked_doors_c
     # ...
 ```
 
-More details about the project can be found in the submission [document](https://gitlab.com/Pawel_Wilczewski/comp2611cwk1/-/blob/main/comp2611cwk1%20robot.pdf). The source code is available on [GitLab](https://gitlab.com/Pawel_Wilczewski/comp2611cwk1).
+More details about the project can be found in the submission [document](https://gitlab.com/Pawel_Wilczewski/comp2611cwk1/-/blob/main/comp2611cwk1%20robot.pdf).
 
 ## Gallery
 
