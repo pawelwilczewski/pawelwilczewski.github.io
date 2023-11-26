@@ -9,7 +9,7 @@ categories: Personal
 
 ## Summary
 
-My `Unity` game submission to the [XR Games Futures Programming Test](https://github.com/XRGames/xr-challenge). Time spent ~15 days.
+My `Unity` game submission to the [XR Games Futures Programming Test](https://github.com/XRGames/xr-challenge). Time spent ~25 days.
 
 The game features:
 - Event-based architecture
