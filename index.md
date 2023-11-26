@@ -19,7 +19,7 @@ I started my game development journey in 2017. Since then, I have worked on mult
 
 I am the author of two successful Blender add-ons, [Smart Loops Toolkit](https://blendermarket.com/products/smart-loops-toolkit) and [UEx](https://blendermarket.com/products/uex-blender-to-unreal). Among other projects, I currently work on [ModularFPS](/commercial/modularfps/) -- an Unreal Engine 5 template for rapid and quality First Person Shooter development.
 
-I have graduated from the University of Leeds with a degree in Computer Science in July 2023. My final year project title was _Interactive Skeletal Mesh Skinning Tool for real-time Animation_.
+I graduated from the University of Leeds with a degree in Computer Science in July 2023. My final year project title was _Interactive Skeletal Mesh Skinning Tool for real-time Animation_.
 
 ## Software
 
