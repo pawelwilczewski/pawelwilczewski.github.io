@@ -11,7 +11,7 @@ categories: Commercial
 
 `Unreal Engine` Template Project to be released on Unreal Marketplace. Aiming for high-quality assets and immersive, realistic gameplay combined with fluid movement for the best user experience. The logic is split between `C++` and `Blueprints` for good performance and ease of control. Networking support is incoming, as well as a plenty other features I set as a requirement for the first release.
 
-The project is currently developed in `Unreal Engine 5 - after porting from `UE4`.
+The project is currently developed in `Unreal Engine 5` - upon porting from `UE4`.
 
 ## Gallery
 
