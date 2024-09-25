@@ -4,7 +4,7 @@ layout: post
 categories: University
 ---
 
-![RobotPuzzle_Thumbnail](/assets/img/robot-puzzle/logo.png)
+![RobotPuzzle_Thumbnail](/assets/img/robot-puzzle/Screenshot_1.png){: width="50%" }
 
 
 ## Summary

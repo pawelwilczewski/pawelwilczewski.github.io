@@ -4,7 +4,7 @@ layout: post
 categories: Personal
 ---
 
-![ParticleSim_Thumbnail](/assets/img/particle-sim/preview.png)
+![ParticleSim_Thumbnail](/assets/img/particle-sim/preview.png){: width="40%" }
 
 
 ## Summary

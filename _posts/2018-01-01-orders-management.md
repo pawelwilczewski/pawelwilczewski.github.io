@@ -4,7 +4,7 @@ layout: post
 categories: Commercial
 ---
 
-![OrdersManagement_Thumbnail](/assets/img/orders-management/Screenshot_6.png)
+![OrdersManagement_Thumbnail](/assets/img/orders-management/Screenshot_6.png){: width="80%" }
 
 
 ## Summary

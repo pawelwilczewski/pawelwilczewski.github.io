@@ -4,7 +4,7 @@ layout: post
 categories: University
 ---
 
-![GameOfLife_Thumbnail](/assets/img/game-of-life/game-of-life-thumbnail.jpg)
+![GameOfLife_Thumbnail](/assets/img/game-of-life/game-of-life-thumbnail.jpg){: width="60%" }
 
 
 ## Summary

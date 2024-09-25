@@ -4,7 +4,7 @@ layout: post
 categories: Commercial
 ---
 
-![ModularFPS_Thumbnail](/assets/img/modularfps/modularfps_thumbnail.png)
+![ModularFPS_Thumbnail](/assets/img/modularfps/modularfps_thumbnail.png){: width="80%" }
 
 
 ## Summary
