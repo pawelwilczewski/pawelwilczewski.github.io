@@ -12,7 +12,7 @@ categories: Commercial
 `C# .NET` application built for the specific needs of an upholstery company based in Poland. The app allows for inputting and managing furniture orders with flexibility and customisation in mind.
 
 
-![OM_Screenshot_0](/assets/img/ordersmanagement/Screenshot_2.png)
+![OM_Screenshot_0](/assets/img/orders-management/Screenshot_2.png)
 *Space-efficient printing*
 
 ![OM_Screenshot_1](/assets/img/orders-management/Screenshot_1.png)
