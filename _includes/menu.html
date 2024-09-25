@@ -2,7 +2,11 @@
 
 
 <input class="side-menu" type="checkbox" id="side-menu"/>
-<label class="burger" for="side-menu"><span class="burger-line"></span></label>
+<label class="burger" for="side-menu">
+    <div style="padding: 10px 0px;">
+        <div class="burger-line"></div>
+    </div>
+</label>
 <nav class="nav-burger">
   <ul class="menu">
   {%- for item in include.menu -%}

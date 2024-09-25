@@ -3,12 +3,16 @@ layout: default
 ---
 
 <article>
-  {% include meta.html post=page %}
-  {{ content }}
-  {% if page.comments != false and site.comments.isso or site.comments.disqus %}
+    <div style="margin-bottom: 20px;">
+        <a href="../../categories{{ page.url | split: '/' | slice: 0, 2 | join: '/' }}">Back to Category</a>
+    </div>
+    {% include meta.html post=page %}
+    <hr>
+    {{ content }}
+    {% if page.comments != false and site.comments.isso or site.comments.disqus %}
     <hr>
     {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
     {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
     <noscript>Please enable JavaScript to view comments.</noscript>
-  {% endif %}
+    {% endif %}
 </article>

@@ -5,7 +5,7 @@
   text-align: center
 
 .desc .title
-  font-size: 1.9em
+  font-size: 2.4em
   font-weight: bold
 
 .desc .row
@@ -94,15 +94,17 @@ a:hover
   margin-left: 1em
   margin-right: 1em
 
+@media (prefers-color-scheme: dark)
+    .softwareicon
+        filter: drop-shadow($icon-border-width 0 0 $icon-border-color) drop-shadow(0 $icon-border-width 0 $icon-border-color) drop-shadow((-$icon-border-width) 0 0 $icon-border-color) drop-shadow(0 (-$icon-border-width) 0 $icon-border-color)
+
 .pfp
   border-radius: 50%
   border-style: solid
   border-color: $link-color
   border-width: 4px
-  width: 200px
+  width: 250px
   display: block
-  margin-left: auto
-  margin-right: auto
 
 .full table
   display: table
@@ -207,3 +209,14 @@ a:hover
     color: #f92672
   .gi
     color: #a6e22e
+
+.business-card
+    border: 0px solid #ccc
+    border-radius: 10px
+    box-shadow: 15px 10px 15px 10px rgba(0, 0, 0, 0.1)
+    margin-bottom: 50px
+    padding: 30px
+
+@media (prefers-color-scheme: dark)
+    .business-card
+        box-shadow: 15px 10px 15px 10px rgba(0, 0, 0, 0.2)
