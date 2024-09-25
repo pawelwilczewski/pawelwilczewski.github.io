@@ -34,8 +34,8 @@ I graduated from the University of Leeds with a degree in Computer Science in Ju
     </a>
     <a style="text-decoration:none" title="Unity" href="https://unity.com">
         <picture>
-            <source srcset="/assets/img/U_Logo_Small_Black_RGB_1C.svg" media="(prefers-color-scheme: light)">
-            <img class="softwareicon" src="/assets/img/U_Logo_Small_White_RGB_1C.svg">
+            <source srcset="/assets/img/U_Logo_Small_Black_RGB_1C-cropped.svg" media="(prefers-color-scheme: light)">
+            <img class="softwareicon" src="/assets/img/U_Logo_Small_White_RGB_1C-cropped.svg">
         </picture>
     </a>
     <a style="text-decoration:none" title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
