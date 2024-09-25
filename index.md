@@ -27,10 +27,16 @@ I graduated from the University of Leeds with a degree in Computer Science in Ju
         <img class="softwareicon" alt="ISO C++ Logo" src="https://isocpp.org/assets/images/cpp_logo.png">
     </a>
     <a style="text-decoration:none" title="Unreal Engine" href="https://www.unrealengine.com">
-        <img class="softwareicon" alt="Unreal Engine Logo" src="/assets/img/UE_Logo_icon-only_white.svg">
+        <picture>
+            <source srcset="/assets/img/UE-Icon-2023-Black.svg" media="(prefers-color-scheme: light)">
+            <img class="softwareicon" src="/assets/img/UE-Icon-2023-White.svg">
+        </picture>
     </a>
     <a style="text-decoration:none" title="Unity" href="https://unity.com">
-        <img class="softwareicon" alt="Unity Logo" src="/assets/img/U_Logo_White_RGB.svg" style="height: 5em; margin-top: -0.446em;">
+        <picture>
+            <source srcset="/assets/img/U_Logo_Small_Black_RGB_1C.svg" media="(prefers-color-scheme: light)">
+            <img class="softwareicon" src="/assets/img/U_Logo_Small_White_RGB_1C.svg">
+        </picture>
     </a>
     <a style="text-decoration:none" title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
         <img class="softwareicon" alt="C# Logo" src="/assets/img/csharp.svg">
