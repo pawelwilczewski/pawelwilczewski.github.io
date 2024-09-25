@@ -10,7 +10,6 @@ layout: page
     <div class="row">Game Developer & Pipeline Programmer</div>
     <div class="loc"><svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#location-dot"></use></svg> Leeds, United Kingom</div>
     <div class="more"><a class="resume" href="/assets/docs/resume.pdf"><div class="loc">My Resume <svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#file"></use></svg></div></a></div>
-    <!-- {% include menu.html menu=site.external %} -->
 </div>
 
 ## About me
