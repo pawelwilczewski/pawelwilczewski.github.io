@@ -3,6 +3,7 @@ title: "Home"
 layout: page
 ---
 
+<div class="about-me-section">
 <div class="about-me-container">
     <img class="pfp" src="/assets/img/current_long.jpg">
     <div class="about-me-text">
@@ -19,6 +20,7 @@ I am the author of two successful Blender add-ons, [Smart Loops Toolkit](https:/
 
 I graduated from the University of Leeds with a degree in Computer Science in July 2023. My final year project title was _Interactive Skeletal Mesh Skinning Tool for real-time Animation_.
 
+</div>
 </div>
 </div>
 </div>
