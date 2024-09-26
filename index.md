@@ -3,16 +3,20 @@ title: "Home"
 layout: page
 ---
 
-<img class="pfp" src="/assets/img/pfp.jpg">
-
-<div class="desc">
-    <div class="title">Pawel Wilczewski</div>
-    <div class="row">Game Developer & Pipeline Programmer</div>
-    <div class="loc"><svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#location-dot"></use></svg> Leeds, United Kingom</div>
-    <div class="more"><a class="resume" href="/assets/docs/resume.pdf"><div class="loc">My Resume <svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#file"></use></svg></div></a></div>
+<div class="about-me-container">
+<div class="about-me-business-card">
+    <img class="pfp" src="/assets/img/pfp.jpg">
+    <div class="desc">
+        <div class="title">Pawel Wilczewski</div>
+        <div class="row">Game & Web Developer</div>
+        <div class="loc"><svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#location-dot"></use></svg> Leeds, United Kingom</div>
+        <div class="more"><a class="resume" href="/assets/docs/resume.pdf"><div class="loc">My Resume <svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#file"></use></svg></div></a></div>
+    </div>
 </div>
+<div class="about-me-text" markdown="1">
 
-## About me
+<h3 style="">Hello</h3>
+<h1 class="gradient-text">I'm Pawel</h1>
 
 I started my game development journey in 2017. Since then, I have worked on multiple projects in various game dev and Computer Science areas. The more notable ones I display on this website. I have been passionate about programming for many years, and I have always valued high quality.
 
@@ -20,7 +24,10 @@ I am the author of two successful Blender add-ons, [Smart Loops Toolkit](https:/
 
 I graduated from the University of Leeds with a degree in Computer Science in July 2023. My final year project title was _Interactive Skeletal Mesh Skinning Tool for real-time Animation_.
 
-## Software
+</div>
+</div>
+
+## Software Proficiency
 
 <div class="skillbox">
     <a style="text-decoration:none" title="C++" href="https://isocpp.org/std">

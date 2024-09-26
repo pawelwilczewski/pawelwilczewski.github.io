@@ -19,6 +19,7 @@
   padding-top: 0
   display: flex
   justify-content: center
+  user-select: none
 
 .more a
   border-radius: 3px
@@ -37,11 +38,30 @@
   text-decoration: inherit
   filter: brightness(100%)
 
+.gradient-text
+  font-size: 4em
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  width: fit-content
+
+.about-me-container
+  display: flex
+  gap: 2rem
+  flex-wrap: wrap
+  flex-direction: row-reverse
+
+.about-me-business-card
+  flex: 1 1 300px
+
+.about-me-text
+  flex: 1 1 50%
+  h2
+    margin-top: 0
+
 .archive
   font-size: 1.1em
-
-.archive-group
-  margin-bottom: 10.0em
 
 .archive time
   display: inline-block
@@ -49,9 +69,22 @@
   min-height: 1.75em
   margin: 0 .2em
 
+.archive-group
+  margin-bottom: 10.0em
+
+.archive-box
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr))
+  grid-gap: 1em
+  font-size: 1.1em
+
+.archive-item
+  min-width: 10em
+  max-width: 20em
+  margin: 0 auto
+
 .category-head
   font-size: 3.5em
-  text-align: center
 
 .icon
   height: 1em
@@ -61,6 +94,7 @@
   align-self: center
   top: .125em
   position: relative
+
 
 a:hover
   color: $link-color
@@ -72,8 +106,7 @@ a:hover
   justify-content: center
   width: 100%
   padding: 0
-  margin: 0
-  margin-top: 1em
+  margin: 1em 0
 
 .skill
   border-radius: 5px
