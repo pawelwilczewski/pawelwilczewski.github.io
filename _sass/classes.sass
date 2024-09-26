@@ -49,9 +49,10 @@
 .about-me-container
   display: flex
   gap: 2rem
-  flex-wrap: wrap
-  flex-direction: row-reverse
-  box-shadow: 0 100px 100px black
+  justify-items: start
+  max-width: 80%
+  margin: auto
+  box-shadow: 0 100px 100px rgba(255, 255, 255, 127)
 
 .about-me-business-card
   flex: 1 1 300px
@@ -60,6 +61,10 @@
   flex: 1 1 50%
   h2
     margin-top: 0
+
+.hello
+  margin-bottom: 1rem
+
 
 .archive
   font-size: 1.1em
@@ -133,7 +138,7 @@ a:hover
 .pfp
   border-top-left-radius: 500px
   border-top-right-radius: 500px
-  width: 50%
+  max-height: 70vh
   display: block
 
 .full table
@@ -155,98 +160,3 @@ a:hover
   .gl pre
     margin: 0 1.5em 0 .25em
     opacity: .5
-
-.highlight // https://github.com/richleland/pygments-css/blob/master/monokai.css <http://unlicense.org>
-  pre
-    background: rgba(lighten($dark, 6%), 0.9)
-    color: white
-  .c
-    color: #a29f90
-  .err
-    color: #960050
-    background-color: #1e0010
-  .k
-    color: #66d9ef
-  .l
-    color: #ae81ff
-  .n
-    color: #f8f8f2
-  .o
-    color: #f92672
-  .p
-    color: #f8f8f2
-  .cm, .cp, .c1, .cs
-    color: #75715e
-  .ge
-    font-style: italic
-  .gs
-    font-weight: bold
-  .kc, .kd
-    color: #66d9ef
-  .kn
-    color: #f92672
-  .kp, .kr, .kt
-    color: #66d9ef
-  .ld
-    color: #e6db74
-  .m
-    color: #ae81ff
-  .s
-    color: #e6db74
-  .na
-    color: #a6e22e
-  .nb
-    color: #f8f8f2
-  .nc
-    color: #a6e22e
-  .no
-    color: #66d9ef
-  .nd
-    color: #a6e22e
-  .ni
-    color: #f8f8f2
-  .ne, .nf
-    color: #a6e22e
-  .nl, .nn
-    color: #f8f8f2
-  .nx
-    color: #a6e22e
-  .py
-    color: #f8f8f2
-  .nt
-    color: #f92672
-  .nv
-    color: #f8f8f2
-  .ow
-    color: #f92672
-  .w
-    color: #f8f8f2
-  .mf, .mh, .mi, .mo
-    color: #ae81ff
-  .sb, .sc, .sd, .s2
-    color: #e6db74
-  .se
-    color: #ae81ff
-  .sh, .si, .sx, .sr, .s1, .ss
-    color: #e6db74
-  .bp, .vc, .vg, .vi
-    color: #f8f8f2
-  .il
-    color: #ae81ff
-  .gu
-    color: #75715e
-  .gd
-    color: #f92672
-  .gi
-    color: #a6e22e
-
-.business-card
-    border: 0px solid #ccc
-    border-radius: 10px
-    box-shadow: 15px 10px 15px 10px rgba(0, 0, 0, 0.1)
-    margin-bottom: 50px
-    padding: 30px
-
-@media (prefers-color-scheme: dark)
-    .business-card
-        box-shadow: 15px 10px 15px 10px rgba(0, 0, 0, 0.2)
