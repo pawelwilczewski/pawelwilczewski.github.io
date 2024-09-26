@@ -27,40 +27,40 @@ I graduated from the University of Leeds with a degree in Computer Science in Ju
 
 <div class="skillbox">
     <a style="text-decoration:none" title="C++" href="https://isocpp.org/std">
-        <img class="softwareicon" alt="ISO C++ Logo" src="https://isocpp.org/assets/images/cpp_logo.png">
+        <img class="softwareicon" alt="ISO C++ Logo" src="/assets/img/software-icons/cpp_logo.png">
     </a>
     <a style="text-decoration:none" title="Unreal Engine" href="https://www.unrealengine.com">
         <picture>
-            <source srcset="/assets/img/UE-Icon-2023-Black.svg" media="(prefers-color-scheme: light)">
-            <img class="softwareicon" src="/assets/img/UE-Icon-2023-White.svg">
+            <source srcset="/assets/img/software-icons/UE-Icon-2023-Black.svg" media="(prefers-color-scheme: light)">
+            <img class="softwareicon" src="/assets/img/software-icons/UE-Icon-2023-White.svg">
         </picture>
     </a>
     <a style="text-decoration:none" title="Unity" href="https://unity.com">
         <picture>
-            <source srcset="/assets/img/U_Logo_Small_Black_RGB_1C-cropped.svg" media="(prefers-color-scheme: light)">
-            <img class="softwareicon" src="/assets/img/U_Logo_Small_White_RGB_1C-cropped.svg">
+            <source srcset="/assets/img/software-icons/U_Logo_Small_Black_RGB_1C-cropped.svg" media="(prefers-color-scheme: light)">
+            <img class="softwareicon" src="/assets/img/software-icons/U_Logo_Small_White_RGB_1C-cropped.svg">
         </picture>
     </a>
     <a style="text-decoration:none" title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
-        <img class="softwareicon" alt="C# Logo" src="/assets/img/csharp.svg">
+        <img class="softwareicon" alt="C# Logo" src="/assets/img/software-icons/csharp.svg">
     </a>
     <a style="text-decoration:none" title="OpenGL" href="https://opengl.org">
-        <img class="softwareicon" alt="OpenGL Logo" src="https://www.khronos.org/assets/images/api_logos/opengl.svg">
+        <img class="softwareicon" alt="OpenGL Logo" src="/assets/img/software-icons/opengl.svg">
     </a>
     <a style="text-decoration:none" title="Python" href="https://python.org">
-        <img class="softwareicon" alt="Python Logo" src="https://www.python.org/static/community_logos/python-logo-generic.svg">
+        <img class="softwareicon" alt="Python Logo" src="/assets/img/software-icons/python-logo-generic.svg">
     </a>
     <a style="text-decoration:none" title="Blender Foundation" href="https://blender.org">
-        <img class="softwareicon" alt="Blender Logo" src="/assets/img/blender_logo_socket.png">
+        <img class="softwareicon" alt="Blender Logo" src="/assets/img/software-icons/blender_logo_socket.png">
     </a>
     <a style="text-decoration:none" title="Git" href="https://git-scm.com">
-        <img class="softwareicon" alt="Git Logo" src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.svg">
+        <img class="softwareicon" alt="Git Logo" src="/assets/img/software-icons/Git-Logo-1788C.svg">
     </a>
     <a style="text-decoration:none" title="Substance Painter" href="https://www.adobe.com/products/substance3d-painter.html">
-        <img class="softwareicon" alt="Substance Painter Logo" src="https://www.adobe.com/content/dam/cc/icons/pt_appicon_256.svg">
+        <img class="softwareicon" alt="Substance Painter Logo" src="/assets/img/software-icons/pt_appicon_256.svg">
     </a>
     <a style="text-decoration:none" title="Krita" href="https://krita.org">
-        <img class="softwareicon" alt="Krita Logo" src="/assets/img/krita_logo.png">
+        <img class="softwareicon" alt="Krita Logo" src="/assets/img/software-icons/krita_logo.png">
     </a>
 </div>
 
