@@ -1,47 +1,31 @@
-.title
-  font-size: 1.35em
+.job-title
+  font-size: 1.4rem
+  margin-top: 2.5rem
 
-.desc
-  text-align: center
-
-.desc .title
-  font-size: 2.4em
-  font-weight: bold
-
-.desc .row
-  font-size: 1.4em
-
-.desc .loc
-  font-size: 1.2em
+.location
+  font-size: 1.2rem
+  margin-bottom: 3rem
 
 .more
-  margin: 1em 0 1em
-  padding-top: 0
   display: flex
-  justify-content: center
   user-select: none
 
 .more a
-  border-radius: 3px
-  border: 1.5px solid $link-color
+  border-radius: 9999999px
+  outline: 1.5px solid $link-color
   padding: .4em .8em
-  width: 50%
   text-align: center
-
-.more .resume
-  width: auto
-
 
 .more a:hover
   color: $light
-  background: $link-color
-  text-decoration: inherit
-  filter: brightness(100%)
+  background: rgb(238,174,202)
+  background: linear-gradient(45deg, rgba(238,174,202,1) 0%, #94bce972 100%)
+  outline: transparent
 
 .gradient-text
-  font-size: 4em
+  font-size: 4rem
   background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
   -webkit-background-clip: text
   -webkit-text-fill-color: transparent
   width: fit-content
@@ -55,20 +39,23 @@
   display: flex
   gap: 2rem
   justify-items: start
-  max-width: 80%
+  width: 80%
+  max-width: 1100px
   margin: auto
 
-.about-me-business-card
-  flex: 1 1 300px
-
-.about-me-text
+.about-me-right
+  align-content: center
   flex: 1 1 50%
-  h2
-    margin-top: 0
+
+.about-me-picture
+  border-top-left-radius: 500px
+  border-top-right-radius: 500px
+  max-height: 70vh
+  display: block
+  align-content: flex-end
 
 .hello
-  margin-bottom: 1rem
-
+  margin-bottom: 0
 
 .archive
   font-size: 1.1em
@@ -135,9 +122,3 @@
   display: inline-block
   margin-left: 1em
   margin-right: 1em
-
-.pfp
-  border-top-left-radius: 500px
-  border-top-right-radius: 500px
-  max-height: 70vh
-  display: block
