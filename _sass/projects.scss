@@ -1,0 +1,31 @@
+.category-head {
+    font-size: 3.5em;
+}
+
+.archive {
+    font-size: 1.1em;
+}
+
+.archive time {
+    display: inline-block;
+    min-width: 10ch;
+    min-height: 1.75em;
+    margin: 0 .2em;
+}
+
+.archive-group {
+    margin-bottom: 10.0em;
+}
+
+.archive-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    grid-gap: 1em;
+    font-size: 1.1em;
+}
+
+.archive-item {
+    min-width: 10em;
+    max-width: 20em;
+    margin: 0 auto;
+}

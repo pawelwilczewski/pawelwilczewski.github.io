@@ -1,0 +1,40 @@
+.more {
+  display: flex;
+  user-select: none;
+}
+
+.more a {
+  border-radius: 9999999px;
+  outline: 1.5px solid var(--primary);
+  padding: .4em .8em;
+  text-align: center;
+}
+
+.more a:hover {
+  color: var(--fg);
+  background: var(--secondary);
+  background: linear-gradient(45deg, var(--secondary) 0%, rgba(var(--primary-rgb), 0.447) 100%);
+  outline: transparent;
+}
+
+.icon {
+  height: 1em;
+  width: 1em;
+  fill: currentColor;
+  display: inline-flex;
+  align-self: center;
+  top: .125em;
+  position: relative;
+}
+
+.shadow-down {
+  background: linear-gradient(var(--bg) 0%, rgba(var(--bg-rgb), 0) 100%);
+  width: 100%;
+  height: $shadow-length;
+}
+
+.shadow-up {
+  background: linear-gradient(rgba(var(--bg-rgb), 0) 0%, var(--bg) 100%);
+  width: 100%;
+  height: $shadow-length;
+}
