@@ -10,21 +10,34 @@ layout: page
             <h2 class="hello">Hello,</h2>
             <h1 class="gradient-text">I'm Pawel</h1>
             <div class="job-title">Game&nbsp;&&nbsp;Web Developer</div>
-            <div class="location"><svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#location-dot"></use></svg> Leeds, United Kingom</div>
+            <div class="location">
+                <svg aria-hidden=true class="icon">
+                    <use xlink:href="{{ " /assets/fontawesome/icons.svg" | relative_url }}#location-dot"></use>
+                </svg> Leeds, United Kingom
+            </div>
             <div class="more">
                 <a href="/assets/docs/resume.pdf">
-                    My Resume <svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#file"></use></svg>
+                    My Resume <svg aria-hidden=true class="icon">
+                        <use xlink:href="{{ " /assets/fontawesome/icons.svg" | relative_url }}#file"></use>
+                    </svg>
                 </a>
             </div>
         </div>
     </div>
 </div>
 
-I started my game development journey in 2017. Since then, I have worked on multiple projects in various game dev and Computer Science areas. The more notable ones I display on this website. I have been passionate about programming for many years, and I have always valued high quality.
+I started my game development journey in 2017. Since then, I have worked on multiple projects in various game dev and
+Computer Science areas. The more notable ones I display on this website. I have been passionate about programming for
+many years, and I have always valued high quality.
 
-I am the author of two successful Blender add-ons, [Smart Loops Toolkit](https://blendermarket.com/products/smart-loops-toolkit) and [UEx](https://blendermarket.com/products/uex-blender-to-unreal). Among other projects, I currently work on [ModularFPS](/commercial/modularfps/) -- an Unreal Engine 5 template for rapid and quality First Person Shooter development.
+I am the author of two successful Blender add-ons, [Smart Loops
+Toolkit](https://blendermarket.com/products/smart-loops-toolkit) and
+[UEx](https://blendermarket.com/products/uex-blender-to-unreal). Among other projects, I currently work on
+[ModularFPS](/commercial/modularfps/) -- an Unreal Engine 5 template for rapid and quality First Person Shooter
+development.
 
-I graduated from the University of Leeds with a degree in Computer Science in July 2023. My final year project title was _Interactive Skeletal Mesh Skinning Tool for real-time Animation_.
+I graduated from the University of Leeds with a degree in Computer Science in July 2023. My final year project title was
+_Interactive Skeletal Mesh Skinning Tool for real-time Animation_.
 
 
 ## Software Proficiency
@@ -41,7 +54,8 @@ I graduated from the University of Leeds with a degree in Computer Science in Ju
     </a>
     <a style="text-decoration:none" title="Unity" href="https://unity.com">
         <picture>
-            <source srcset="/assets/img/software-icons/U_Logo_Small_Black_RGB_1C-cropped.svg" media="(prefers-color-scheme: light)">
+            <source srcset="/assets/img/software-icons/U_Logo_Small_Black_RGB_1C-cropped.svg"
+                media="(prefers-color-scheme: light)">
             <img class="softwareicon" src="/assets/img/software-icons/U_Logo_Small_White_RGB_1C-cropped.svg">
         </picture>
     </a>
@@ -60,7 +74,8 @@ I graduated from the University of Leeds with a degree in Computer Science in Ju
     <a style="text-decoration:none" title="Git" href="https://git-scm.com">
         <img class="softwareicon" alt="Git Logo" src="/assets/img/software-icons/Git-Logo-1788C.svg">
     </a>
-    <a style="text-decoration:none" title="Substance Painter" href="https://www.adobe.com/products/substance3d-painter.html">
+    <a style="text-decoration:none" title="Substance Painter"
+        href="https://www.adobe.com/products/substance3d-painter.html">
         <img class="softwareicon" alt="Substance Painter Logo" src="/assets/img/software-icons/pt_appicon_256.svg">
     </a>
     <a style="text-decoration:none" title="Krita" href="https://krita.org">

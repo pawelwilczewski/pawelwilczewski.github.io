@@ -10,25 +10,6 @@
   margin-top: 0.5rem;
 }
 
-.more {
-  display: flex;
-  user-select: none;
-}
-
-.more a {
-  border-radius: 9999999px;
-  outline: 1.5px solid var(--primary);
-  padding: .4em .8em;
-  text-align: center;
-}
-
-.more a:hover {
-  color: var(--fg);
-  background: #eeaeca;
-  background: linear-gradient(45deg, var(--secondary) 0%, rgba(149, 188, 233, 0.447) 100%);
-  outline: transparent;
-}
-
 .gradient-text {
   font-size: 4rem;
   background: var(--secondary);
@@ -40,8 +21,8 @@
 }
 
 .about-me-section {
-  background: var(--fg);
-  box-shadow: 0 5rem 5rem var(--fg);
+  background: var(--bg);
+  box-shadow: 0 5rem 5rem var(--bg);
 }
 
 .about-me-container {
@@ -67,6 +48,25 @@
 
 .hello {
   margin-bottom: 0;
+}
+
+.more {
+  display: flex;
+  user-select: none;
+}
+
+.more a {
+  border-radius: 9999999px;
+  outline: 1.5px solid var(--primary);
+  padding: .4em .8em;
+  text-align: center;
+}
+
+.more a:hover {
+  color: var(--bg);
+  background: var(--secondary);
+  background: linear-gradient(45deg, var(--secondary) 0%, rgba(var(--primary-rgb), 0.447) 100%);
+  outline: transparent;
 }
 
 .archive {
@@ -133,7 +133,7 @@
 }
 
 .skill:hover {
-  color: var(--fg);
+  color: var(--bg);
   background: var(--primary);
   text-decoration: inherit;
 }

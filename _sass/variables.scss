@@ -7,28 +7,29 @@ $icon-border-color: #232323 !default;
 $icon-border-width: 0.8px !default;
 
 :root {
-  --light-900: #ffffff;
-  --light-800: #e9e9e9;
-  --light-700: #c9c9c9;
+    --light-900: #ffffff;
+    --light-800: #e9e9e9;
+    --light-700: #c9c9c9;
 
-  --dark-900: #000000;
-  --dark-800: #171717;
-  --dark-700: #2a2a2a;
+    --dark-900: #000000;
+    --dark-800: #171717;
+    --dark-700: #2a2a2a;
 
-  --primary: #94bbe9;
-  --secondary: #eeaeca;
+    --primary: #94bbe9;
+    --primary-rgb: 149, 188, 233;
+    --secondary: #eeaeca;
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    --bg: var(--light-900);
-    --fg: var(--dark-800);
-  }
+    :root {
+        --fg: var(--dark-800);
+        --bg: var(--light-900);
+    }
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg: var(--dark-900);
-    --fg: var(--dark-700);
-  }
+    :root {
+        --fg: var(--light-900);
+        --bg: var(--dark-900);
+    }
 }
