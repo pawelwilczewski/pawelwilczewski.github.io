@@ -10,6 +10,7 @@ icons:                     # additional icons that can be used in the text acros
   - {icon: location-dot}
   - {icon: c}
   - {icon: file}
+  - {icon: code}
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "commercial.html", icon: "sack-dollar", title: "Commercial Projects"}

@@ -28,7 +28,7 @@ $shadow-length: 1rem !default;
         --fg: var(--dark-800);
         --bg: var(--light-900);
         --bg-rgb: var(--light-900-rgb);
-        --bg-far: var(--light-700);
+        --muted: var(--light-700);
     }
 }
 
@@ -37,6 +37,6 @@ $shadow-length: 1rem !default;
         --fg: var(--light-900);
         --bg: var(--dark-900);
         --bg-rgb: var(--dark-900-rgb);
-        --bg-far: var(--dark-700);
+        --muted: var(--dark-700);
     }
 }

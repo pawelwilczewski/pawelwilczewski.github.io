@@ -1,35 +1,53 @@
 ---
 title: "Home"
-layout: page
+layout: default
 ---
 
-<div class="about-me-section">
-    <div class="about-me-container">
-        <div class="about-me-text">
+<section class="intro-section">
+    <div class="intro-container">
+        <div class="intro-text">
             <h2 class="hello">Hello,</h2>
-            <h1 class="gradient-text">I'm Pawel</h1>
+            <h1 class="name">I'm&nbsp;Pawel</h1>
             <div class="job-title">Game&nbsp;&&nbsp;Web Developer</div>
             <div class="location">
                 <svg aria-hidden=true class="icon">
                     <use xlink:href="/assets/fontawesome/icons.svg#location-dot"></use>
                 </svg> Leeds, United&nbsp;Kingom
             </div>
-            <div class="more">
-                <a href="/assets/docs/resume.pdf">
-                    My Resume
-                    <svg aria-hidden=true class="icon">
-                        <use xlink:href="/assets/fontawesome/icons.svg#file"></use>
-                    </svg>
-                </a>
+            <div class="intro-buttons">
+                <div class="more">
+                    <a href="/assets/docs/resume.pdf">
+                        Resume
+                        <svg aria-hidden=true class="icon">
+                            <use xlink:href="/assets/fontawesome/icons.svg#file"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="more">
+                    <a href="/categories">
+                        Projects
+                        <svg aria-hidden=true class="icon">
+                            <use xlink:href="/assets/fontawesome/icons.svg#code"></use>
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
-        <img class="about-me-picture" src="/assets/img/with_blur.png">
+        <img class="intro-picture" src="/assets/img/with_blur.png">
     </div>
-</div>
+</section>
+
+<section class="experience-section">
+    <h1 class="section-heading">My <b>Experience</b></h1>
+    <div class="experience-frame">
+        <h2>Company</h2>
+        <p>
+            Some experience here
+        </p>
+    </div>
+</section>
 
 <div class="experience-section">
-    <!-- <div class="shadow-down"></div> -->
-
     <p>
         I started my game development journey in 2017. Since then, I have worked on multiple projects in various game
         dev and Computer Science areas. The more notable ones I display on this website. I have been passionate about
@@ -53,8 +71,6 @@ layout: page
         was
         <i>Interactive Skeletal Mesh Skinning Tool for real-time Animation</i>.
     </p>
-
-    <!-- <div class="shadow-up"></div> -->
 </div>
 
 ## Software Proficiency

@@ -5,11 +5,16 @@ body {
   font-weight: $font-weight;
   font-size: $font-size;
   line-height: $line-height;
-  margin: 0;
   min-height: 100vh;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  width: 80%;
+  max-width: 1100px;
+  margin: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,57 +72,6 @@ a {
   }
 }
 
-header a, footer a, aside a {
-  color: inherit;
-}
-
-header time {
-  color: reduce(100);
-}
-
-hr {
-  border: 1px solid reduce(30);
-  margin: 2em 0;
-}
-
-article {
-  padding-bottom: 1em;
-}
-
-article img {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border-radius: 5px;
-}
-
-blockquote {
-  background: reduce(6);
-  border-left: 3px solid reduce(90);
-  padding: 1px 1.5em;
-  opacity: .75;
-}
-
-blockquote, figure {
-  margin: 1em 0;
-}
-
-li {
-  margin: .25em 0;
-}
-
-img {
-  margin: .5em 0 0 0;
-  border-radius: 2px;
-  max-width: 100%;
-  height: auto;
-}
-
-img+em {
-  display: block;
-  text-align: center;
-}
-
 table {
   display: inline-block;
   max-width: 100%;
@@ -134,22 +88,4 @@ th, td {
 
 tr:hover, tr:nth-child(odd) td {
   background: reduce(4);
-}
-
-pre {
-  background: reduce(12);
-  border-radius: 2px;
-  font-size: .8em;
-  margin: 1.5em 0;
-  padding: .8em 1.2em;
-  overflow-x: auto;
-}
-
-:not(pre)>code {
-  font-size: .9em;
-  background: reduce(15);
-  opacity: .7;
-  border-radius: 2px;
-  margin: 0 .1em;
-  padding: .2em .4em;
 }
