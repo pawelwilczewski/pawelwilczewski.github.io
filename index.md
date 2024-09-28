@@ -9,7 +9,7 @@ layout: page
         <div class="about-me-right">
             <h2 class="hello">Hello,</h2>
             <h1 class="gradient-text">I'm Pawel</h1>
-            <div class="job-title">Game & Web Developer</div>
+            <div class="job-title">Game&nbsp;&&nbsp;Web Developer</div>
             <div class="location"><svg aria-hidden=true class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#location-dot"></use></svg> Leeds, United Kingom</div>
             <div class="more">
                 <a href="/assets/docs/resume.pdf">
