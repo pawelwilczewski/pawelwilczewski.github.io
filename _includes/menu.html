@@ -4,26 +4,3 @@
     <div class="burger-line"></div>
   </div>
 </label>
-<nav class="nav-burger">
-  <ul class="menu">
-    {%- for item in include.menu -%}
-    <li>
-      {%- assign node = site.pages | where: "name", item.file | first -%}
-      {%- assign url = item.url | default: node.url -%}
-
-      <a aria-label="{% if item.title %}{{ title }}{% else %}node.title{% endif %}" href="{{ url | relative_url }}" {%
-        if url==page.url %}class="selected" {% endif %}>
-        {% if item.title %}
-        {{ item.title }}
-        {% endif %}
-        {%- if item.icon -%}
-        {%- if item.title -%}&nbsp{%- endif -%}
-        <svg aria-hidden=true class="icon">
-          <use xlink:href="{{ " /assets/fontawesome/icons.svg" | relative_url }}#{{ item.icon }}"></use>
-        </svg>
-        {%- endif -%}
-      </a>
-    </li>
-    {%- endfor -%}
-  </ul>
-</nav>

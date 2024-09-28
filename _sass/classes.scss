@@ -1,3 +1,24 @@
+.about-me-section {}
+
+.about-me-container {
+  display: flex;
+  gap: 2rem;
+  width: 80%;
+  max-width: 1100px;
+  margin: auto;
+  align-items: center;
+}
+
+.about-me-picture {
+  min-width: 0px;
+}
+
+.about-me-text {}
+
+.hello {
+  margin-bottom: 0;
+}
+
 .job-title {
   font-size: 1.4rem;
   margin-top: 2.5rem;
@@ -12,7 +33,6 @@
 
 .gradient-text {
   font-size: 4rem;
-  background: var(--secondary);
   background: radial-gradient(circle, var(--secondary) 0%, var(--primary) 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -20,34 +40,18 @@
   width: fit-content;
 }
 
-.about-me-section {
-  background: var(--bg);
-  box-shadow: 0 5rem 5rem var(--bg);
+.experience-section {}
+
+.shadow-down {
+  background: linear-gradient(var(--bg) 0%, rgba(var(--bg-rgb), 0) 100%);
+  width: 100%;
+  height: $shadow-length;
 }
 
-.about-me-container {
-  display: flex;
-  gap: 2rem;
-  justify-items: start;
-  width: 80%;
-  max-width: 1100px;
-  margin: auto;
-}
-
-.about-me-picture {
-  border-top-left-radius: 500px;
-  border-top-right-radius: 500px;
-  max-height: 70vh;
-  display: block;
-  align-content: flex-end;
-}
-
-.about-me-right {
-  align-content: center;
-}
-
-.hello {
-  margin-bottom: 0;
+.shadow-up {
+  background: linear-gradient(rgba(var(--bg-rgb), 0) 0%, var(--bg) 100%);
+  width: 100%;
+  height: $shadow-length;
 }
 
 .more {
@@ -63,7 +67,7 @@
 }
 
 .more a:hover {
-  color: var(--bg);
+  color: var(--fg);
   background: var(--secondary);
   background: linear-gradient(45deg, var(--secondary) 0%, rgba(var(--primary-rgb), 0.447) 100%);
   outline: transparent;
