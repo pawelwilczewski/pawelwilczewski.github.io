@@ -1,0 +1,146 @@
+.job-title {
+  font-size: 1.4rem;
+  margin-top: 2.5rem;
+  line-height: 1.2;
+}
+
+.location {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  margin-top: 0.5rem;
+}
+
+.more {
+  display: flex;
+  user-select: none;
+}
+
+.more a {
+  border-radius: 9999999px;
+  outline: 1.5px solid var(--primary);
+  padding: .4em .8em;
+  text-align: center;
+}
+
+.more a:hover {
+  color: var(--fg);
+  background: #eeaeca;
+  background: linear-gradient(45deg, var(--secondary) 0%, rgba(149, 188, 233, 0.447) 100%);
+  outline: transparent;
+}
+
+.gradient-text {
+  font-size: 4rem;
+  background: var(--secondary);
+  background: radial-gradient(circle, var(--secondary) 0%, var(--primary) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
+
+.about-me-section {
+  background: var(--fg);
+  box-shadow: 0 5rem 5rem var(--fg);
+}
+
+.about-me-container {
+  display: flex;
+  gap: 2rem;
+  justify-items: start;
+  width: 80%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.about-me-picture {
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  max-height: 70vh;
+  display: block;
+  align-content: flex-end;
+}
+
+.about-me-right {
+  align-content: center;
+}
+
+.hello {
+  margin-bottom: 0;
+}
+
+.archive {
+  font-size: 1.1em;
+}
+
+.archive time {
+  display: inline-block;
+  min-width: 10ch;
+  min-height: 1.75em;
+  margin: 0 .2em;
+}
+
+.archive-group {
+  margin-bottom: 10.0em;
+}
+
+.archive-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-gap: 1em;
+  font-size: 1.1em;
+}
+
+.archive-item {
+  min-width: 10em;
+  max-width: 20em;
+  margin: 0 auto;
+}
+
+.category-head {
+  font-size: 3.5em;
+}
+
+.icon {
+  height: 1em;
+  width: 1em;
+  fill: currentColor;
+  display: inline-flex;
+  align-self: center;
+  top: .125em;
+  position: relative;
+}
+
+.skillbox {
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 1em;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  margin: 1em 0;
+}
+
+.skill {
+  border-radius: 5px;
+  border: 1.5px solid var(--primary);
+  padding: .4em .8em;
+  transition: .2s background, .2s color;
+  width: auto;
+  margin: auto 1em;
+  text-align: center;
+  user-select: none;
+}
+
+.skill:hover {
+  color: var(--fg);
+  background: var(--primary);
+  text-decoration: inherit;
+}
+
+.softwareicon {
+  height: 3em;
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
+}
