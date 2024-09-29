@@ -8,7 +8,7 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border-top: solid var(--muted-bg) 1.5px;
+    border-top: solid var(--muted-bg) $border-width;
     font-size: 1.1rem;
 }
 

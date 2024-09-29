@@ -9,8 +9,6 @@
   min-width: 0px;
 }
 
-.intro-text {}
-
 .hello {
   margin-bottom: 0;
 }
@@ -79,26 +77,20 @@
 .skill-box {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 1em;
+  gap: 1rem;
   justify-content: center;
-  width: 100%;
-  padding: 0;
-  margin: 1em 0;
 }
 
 .skill {
   border-radius: 5px;
-  border: 1.5px solid var(--primary);
+  border: $border-width solid var(--primary);
   padding: .4em .8em;
   transition: .2s background, .2s color;
-  width: auto;
-  margin: auto 1em;
-  text-align: center;
   user-select: none;
-}
 
-.skill:hover {
-  color: var(--bg);
-  background: var(--primary);
-  text-decoration: inherit;
+  &:hover {
+    color: var(--bg);
+    background: var(--primary);
+    text-decoration: inherit;
+  }
 }

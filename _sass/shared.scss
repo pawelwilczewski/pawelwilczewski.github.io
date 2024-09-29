@@ -1,19 +1,16 @@
 .button-link {
   user-select: none;
-}
-
-.button-link a {
-  border-radius: 9999999px;
-  outline: 1.5px solid var(--primary);
+  border-radius: 1000000px;
+  outline: $border-width solid var(--primary);
   padding: .4em .8em;
   text-align: center;
-}
 
-.button-link a:hover {
-  color: var(--fg);
-  background: var(--secondary);
-  background: linear-gradient(45deg, var(--secondary) 0%, rgba(var(--primary-rgb), 0.447) 100%);
-  outline: transparent;
+  &:hover {
+    color: var(--fg);
+    background: var(--secondary);
+    background: linear-gradient(45deg, var(--secondary) 0%, rgba(var(--primary-rgb), 0.447) 100%);
+    outline: transparent;
+  }
 }
 
 .icon {
@@ -24,18 +21,6 @@
   align-self: center;
   top: .125em;
   position: relative;
-}
-
-.shadow-down {
-  background: linear-gradient(var(--bg) 0%, rgba(var(--bg-rgb), 0) 100%);
-  width: 100%;
-  height: $shadow-length;
-}
-
-.shadow-up {
-  background: linear-gradient(rgba(var(--bg-rgb), 0) 0%, var(--bg) 100%);
-  width: 100%;
-  height: $shadow-length;
 }
 
 .muted {
