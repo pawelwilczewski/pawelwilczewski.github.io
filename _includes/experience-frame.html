@@ -1,0 +1,22 @@
+<div class="experience-frame">
+    <div class="experience-header">
+        <div class="role-container">
+            <picture>
+                <source srcset="{{ include.light_image_src }}" media="(prefers-color-scheme: light)">
+                <img class="company-image" src="{{ include.dark_image_src }}">
+            </picture>
+            <h2 class="role-name">{{ include.role_title }}</h2>
+            <span class="role-type">{{ include.role_type }}</span>
+        </div>
+        <time class="muted">{{ include.time }}</time>
+    </div>
+    <div class="role-details-container">
+        <div class="role-slug">{{ include.role_slug }}</div>
+        <div class="role-technologies-container">
+            {{ include.icons }}
+        </div>
+    </div>
+    <div class="muted">
+        {{ include.content }}
+    </div>
+</div>

@@ -39,119 +39,101 @@ layout: index
 
 <section class="section">
     <h1 class="section-heading">Experience</h1>
-
     <div class="experience-frames-container">
 
-        <div class="experience-frame">
-            <div class="experience-header">
-                <div class="role-container">
-                    <img src="assets/img/experience/xrgames.png" class="company-image">
-                    <h2 class="role-name">Junior Programmer</h2>
-                    <span class="role-type">Full Time</span>
-                </div>
-                <time class="muted">Jun 2023 - Present</time>
-            </div>
-            <div class="role-details-container">
-                <div class="role-slug">
-                    VR Game Programming
-                </div>
-                <div class="role-technologies-container">
-                    <a title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
-                        <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp.svg">
-                    </a>
-                    <a title="Unity" href="https://unity.com">
-                        <picture>
-                            <source srcset="/assets/img/software-icons/U_Logo_Small_Black_RGB_1C-cropped.svg"
-                                media="(prefers-color-scheme: light)">
-                            <img class="technology-icon"
-                                src="/assets/img/software-icons/U_Logo_Small_White_RGB_1C-cropped.svg">
-                        </picture>
-                    </a>
-                </div>
-            </div>
-            <div class="muted">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui mauris, mattis vitae faucibus vitae,
-                    gravida
-                    et purus. Duis neque ligula, lobortis ac nisi id, cursus posuere lectus. Sed nec metus felis.
-                    Praesent
-                    aliquet elit sit amet lectus semper faucibus. Ut eu lectus quis erat fermentum porttitor pretium id
-                    ligula.
-                    Proin ultrices libero vitae orci molestie, vel bibendum purus fringilla. Mauris suscipit euismod
-                    eros
-                    vitae
-                    auctor. Aenean aliquam tellus non erat condimentum eleifend. Morbi tempor ligula ac ipsum venenatis,
-                    quis
-                    elementum velit ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis
-                    tincidunt
-                    finibus. Nunc cursus malesuada varius.
-                </p>
-                <p>
-                    Nulla suscipit tempor felis, ac tristique augue ullamcorper a. Nullam rhoncus tellus in venenatis
-                    mollis.
-                    Duis accumsan tellus a pharetra dapibus. Fusce egestas porta enim, convallis vulputate nisi
-                    ullamcorper
-                    eget. Nunc vehicula quis nibh nec elementum. Vestibulum at velit lobortis, bibendum magna at,
-                    efficitur
-                    odio. Suspendisse ac varius diam. Nulla facilisi.
-                </p>
-            </div>
-        </div>
+        {% include experience-frame.html
+        light_image_src="assets/img/experience/xrgames.png"
+        dark_image_src="assets/img/experience/xrgames.png"
+        time="Jun 2023 - Present"
+        role_title="Junior Programmer"
+        role_type="Full Time"
+        role_slug="VR Game Programming"
+        icons='
+        <a title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
+            <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp.svg">
+        </a>
+        <a title="Unity" href="https://unity.com">
+            <picture>
+                <source srcset="/assets/img/software-icons/U_Logo_Small_Black_RGB_1C-cropped.svg"
+                    media="(prefers-color-scheme: light)">
+                <img class="technology-icon" src="/assets/img/software-icons/U_Logo_Small_White_RGB_1C-cropped.svg">
+            </picture>
+        </a>
+        '
+        content="
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui mauris, mattis vitae faucibus vitae,
+            gravida
+            et purus. Duis neque ligula, lobortis ac nisi id, cursus posuere lectus. Sed nec metus felis.
+            Praesent
+            aliquet elit sit amet lectus semper faucibus. Ut eu lectus quis erat fermentum porttitor pretium id
+            ligula.
+            Proin ultrices libero vitae orci molestie, vel bibendum purus fringilla. Mauris suscipit euismod
+            eros
+            vitae
+            auctor. Aenean aliquam tellus non erat condimentum eleifend. Morbi tempor ligula ac ipsum venenatis,
+            quis
+            elementum velit ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis
+            tincidunt
+            finibus. Nunc cursus malesuada varius.
+        </p>
+        <p>
+            Nulla suscipit tempor felis, ac tristique augue ullamcorper a. Nullam rhoncus tellus in venenatis
+            mollis.
+            Duis accumsan tellus a pharetra dapibus. Fusce egestas porta enim, convallis vulputate nisi
+            ullamcorper
+            eget. Nunc vehicula quis nibh nec elementum. Vestibulum at velit lobortis, bibendum magna at,
+            efficitur
+            odio. Suspendisse ac varius diam. Nulla facilisi.
+        </p>
+        " %}
 
-        <div class="experience-frame">
-            <div class="experience-header">
-                <div class="role-container">
-                    <img src="assets/img/experience/jaworski.png" class="company-image">
-                    <h2 class="role-name">Programmer</h2>
-                    <span class="role-type">Contract</span>
-                </div>
-                <time class="muted">Feb 2024 - Present</time>
-            </div>
-            <div class="role-details-container">
-                <div class="role-slug">
-                    Full Stack Development
-                </div>
-                <div class="role-technologies-container">
-                    <a title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
-                        <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp.svg">
-                    </a>
-                    <a title="Blazor" href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor">
-                        Blazor Image
-                    </a>
-                    <a title="ASP.NET" href="https://dotnet.microsoft.com/en-us/apps/aspnet">
-                        ASP.NET Image
-                    </a>
-                </div>
-            </div>
-            <div class="muted">
-                <p>
-                    Jaworski Software Solutions Ltd Contract<br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui mauris, mattis vitae faucibus vitae,
-                    gravida
-                    et purus. Duis neque ligula, lobortis ac nisi id, cursus posuere lectus. Sed nec metus felis.
-                    Praesent
-                    aliquet elit sit amet lectus semper faucibus. Ut eu lectus quis erat fermentum porttitor pretium id
-                    ligula.
-                    Proin ultrices libero vitae orci molestie, vel bibendum purus fringilla. Mauris suscipit euismod
-                    eros
-                    vitae
-                    auctor. Aenean aliquam tellus non erat condimentum eleifend. Morbi tempor ligula ac ipsum venenatis,
-                    quis
-                    elementum velit ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis
-                    tincidunt
-                    finibus. Nunc cursus malesuada varius.
-                </p>
-                <p>
-                    Nulla suscipit tempor felis, ac tristique augue ullamcorper a. Nullam rhoncus tellus in venenatis
-                    mollis.
-                    Duis accumsan tellus a pharetra dapibus. Fusce egestas porta enim, convallis vulputate nisi
-                    ullamcorper
-                    eget. Nunc vehicula quis nibh nec elementum. Vestibulum at velit lobortis, bibendum magna at,
-                    efficitur
-                    odio. Suspendisse ac varius diam. Nulla facilisi.
-                </p>
-            </div>
-        </div>
+        {% include experience-frame.html
+        light_image_src="assets/img/experience/jaworski.png"
+        dark_image_src="assets/img/experience/jaworski.png"
+        time="Feb 2024 - Present"
+        role_title="Programmer"
+        role_type="Contract"
+        role_slug="Full Stack Development"
+        icons='
+        <a title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
+            <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp.svg">
+        </a>
+        <a title="Blazor" href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor">
+            Blazor Image
+        </a>
+        <a title="ASP.NET" href="https://dotnet.microsoft.com/en-us/apps/aspnet">
+            ASP.NET Image
+        </a>
+        '
+        content="
+        <p>
+            Jaworski Software Solutions Ltd Contract<br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui mauris, mattis vitae faucibus vitae,
+            gravida
+            et purus. Duis neque ligula, lobortis ac nisi id, cursus posuere lectus. Sed nec metus felis.
+            Praesent
+            aliquet elit sit amet lectus semper faucibus. Ut eu lectus quis erat fermentum porttitor pretium id
+            ligula.
+            Proin ultrices libero vitae orci molestie, vel bibendum purus fringilla. Mauris suscipit euismod
+            eros
+            vitae
+            auctor. Aenean aliquam tellus non erat condimentum eleifend. Morbi tempor ligula ac ipsum venenatis,
+            quis
+            elementum velit ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis
+            tincidunt
+            finibus. Nunc cursus malesuada varius.
+        </p>
+        <p>
+            Nulla suscipit tempor felis, ac tristique augue ullamcorper a. Nullam rhoncus tellus in venenatis
+            mollis.
+            Duis accumsan tellus a pharetra dapibus. Fusce egestas porta enim, convallis vulputate nisi
+            ullamcorper
+            eget. Nunc vehicula quis nibh nec elementum. Vestibulum at velit lobortis, bibendum magna at,
+            efficitur
+            odio. Suspendisse ac varius diam. Nulla facilisi.
+        </p>
+        " %}
 
     </div>
 </section>
