@@ -1,8 +1,15 @@
 footer {
+    margin-top: 3rem;
+    padding: 2rem;
+    padding-top: 1rem;
+    color: var(--muted-fg);
     display: flex;
+    gap: 1rem;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    border-top: solid var(--muted-bg) 1.5px;
+    font-size: 1.1rem;
 }
 
 footer a {
