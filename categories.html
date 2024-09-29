@@ -15,7 +15,7 @@ title: All Projects
             <article class="archive-item">
                 {% include meta.html post=post preview=true %}
                 {{ post.excerpt }}
-                <div class="more"><a href="{{ post.url | relative_url }}">Show Project</a></div>
+                <div class="button-link"><a href="{{ post.url | relative_url }}">Show Project</a></div>
             </article>
             {% endfor %}
         </div>

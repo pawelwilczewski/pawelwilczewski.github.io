@@ -1,16 +1,15 @@
-.more {
-  display: flex;
+.button-link {
   user-select: none;
 }
 
-.more a {
+.button-link a {
   border-radius: 9999999px;
   outline: 1.5px solid var(--primary);
   padding: .4em .8em;
   text-align: center;
 }
 
-.more a:hover {
+.button-link a:hover {
   color: var(--fg);
   background: var(--secondary);
   background: linear-gradient(45deg, var(--secondary) 0%, rgba(var(--primary-rgb), 0.447) 100%);
