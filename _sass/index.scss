@@ -109,6 +109,26 @@
   font-size: 1.1rem;
 }
 
+.about-me-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+}
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform-origin: 72% 72%;
+  font-size: 8rem;
+}
+
 .skillbox {
   display: flex;
   flex-flow: row wrap;
