@@ -30,29 +30,34 @@
     }
 }
 
-.company-image {
+.role-header-text {
+    display: flex;
+    gap: 2rem;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.company-picture {
     height: 3rem;
 }
 
 @media only screen and (max-width: $small-width) {
-    .company-image {
+    .company-picture {
         height: 6rem;
     }
 }
 
+.company-image {
+    height: 100%;
+}
+
 .role-name {
     margin: 0;
+
 }
 
 .role-type {
     color: var(--muted-fg);
-    align-self: end;
-}
-
-@media only screen and (max-width: $small-width) {
-    .role-type {
-        align-self: start;
-    }
 }
 
 .role-details-container {

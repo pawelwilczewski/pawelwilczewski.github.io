@@ -1,12 +1,14 @@
 <div class="experience-frame">
     <div class="experience-header">
         <div class="role-container">
-            <picture>
+            <picture class="company-picture">
                 <source srcset="{{ include.light_image_src }}" media="(prefers-color-scheme: light)">
                 <img class="company-image" src="{{ include.dark_image_src }}">
             </picture>
-            <h2 class="role-name">{{ include.role_title }}</h2>
-            <span class="role-type">{{ include.role_type }}</span>
+            <div class="role-header-text">
+                <h2 class="role-name">{{ include.role_title }}</h2>
+                <span class="role-type">{{ include.role_type }}</span>
+            </div>
         </div>
         <time class="muted">{{ include.time }}</time>
     </div>
