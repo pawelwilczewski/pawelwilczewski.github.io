@@ -49,6 +49,12 @@
     align-self: end;
 }
 
+@media only screen and (max-width: $small-width) {
+    .role-type {
+        align-self: start;
+    }
+}
+
 .role-details-container {
     display: flex;
     justify-content: space-between;
