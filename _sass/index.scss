@@ -20,6 +20,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: fit-content;
+  font-family: 'PT Sans';
 }
 
 .job-title {
@@ -51,7 +52,22 @@
 .experience-frames-container {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
+}
+
+.featured-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 2rem;
+}
+
+.featured-heading {
+  text-align: center;
+}
+
+.featured-item {
+  width: 100%;
 }
 
 .about-me-container {
