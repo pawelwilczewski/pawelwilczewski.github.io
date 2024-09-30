@@ -58,9 +58,9 @@
 .featured-container {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: start;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 @media only screen and (max-width: $medium-width) {
@@ -70,11 +70,11 @@
 }
 
 .featured-item {
-  flex: 1 1 calc(33.33% - 1rem);
+  flex: 1 1 calc(33.33% - 2rem);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 @media only screen and (max-width: $medium-width) {
@@ -88,12 +88,20 @@
   font-size: 1.4rem;
   text-align: center;
   font-weight: bold;
+  color: var(--fg);
+}
+
+.featured-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  border-radius: 0.5rem;
 }
 
 .see-more-container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .about-me-container {
