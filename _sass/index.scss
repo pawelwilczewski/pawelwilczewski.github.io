@@ -59,15 +59,41 @@
   display: flex;
   justify-content: space-between;
   align-items: end;
-  gap: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-.featured-heading {
-  text-align: center;
+@media only screen and (max-width: $medium-width) {
+  .featured-container {
+    justify-content: center;
+  }
 }
 
 .featured-item {
-  width: 100%;
+  flex: 1 1 calc(33.33% - 1rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media only screen and (max-width: $medium-width) {
+  .featured-item {
+    flex: 1 1 100%;
+    max-width: 80%;
+  }
+}
+
+.featured-heading {
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.see-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 .about-me-container {
