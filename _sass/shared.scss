@@ -24,3 +24,29 @@
 .muted {
   color: var(--muted-fg);
 }
+
+.back-to-top {
+  color: inherit !important;
+  cursor: pointer;
+  font-size: 1.4rem;
+  position: fixed;
+  display: flex;
+  bottom: 3rem;
+  right: 3rem;
+  background-color: var(--muted-bg);
+  border-radius: 1000000px;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease-in-out;
+
+  &[scrolled='1'] {
+    opacity: 1;
+    visibility: visible;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+}

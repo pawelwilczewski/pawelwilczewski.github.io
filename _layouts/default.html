@@ -23,6 +23,27 @@
 <script data-isso="http://{{ site.comments.isso_domain }}"
   src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+
+    const getBackToTopButton = () => {
+      return document.querySelector('.back-to-top');
+    }
+
+    getBackToTopButton().addEventListener("click", () =>
+      window.scrollTo({ top: 0, behavior: "smooth" }))
+
+    window.addEventListener('scroll', function () {
+      const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+      getBackToTopButton().setAttribute('scrolled', scrollPosition > 100 ? '1' : '0');
+    });
+  });
+</script>
+
+<a class="back-to-top">
+  <span>↑</span>
+</a>
+
 {% if site.navigation %}
 {% assign pages = site.navigation %}
 {% else %}
