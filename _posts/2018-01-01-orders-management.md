@@ -1,10 +1,14 @@
 ---
-title: "Furniture Orders Management Software"
+title: "Furniture Orders Manager"
 layout: post
 categories: Commercial
 ---
 
 ![OrdersManagement_Thumbnail](/assets/img/orders-management/Screenshot_6.png){: width="80%" }
+
+## Furniture Orders Manager
+
+fdsjfod jsodf
 
 
 ## Summary

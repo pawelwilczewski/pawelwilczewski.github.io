@@ -6,6 +6,10 @@ categories: Personal
 
 ![ParticleSim_Thumbnail](/assets/img/particle-sim/preview.png){: width="40%" }
 
+## Crafter
+
+Sample text
+
 
 ## Summary
 

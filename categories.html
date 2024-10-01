@@ -4,21 +4,45 @@ permalink: /categories/
 title: All Projects
 ---
 
+<!-- <div id="{{ category_name | slugize }}" class="category-head"><i>#{{ category_name }}</i></div> -->
 
-<main>
-    {% for category in site.categories %}
-    <div class="archive-group">
+<main class="page page--projects">
+    <h1>My Projects</h1>
+
+    <div class="grid">
+        {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
-        <div id="{{ category_name | slugize }}" class="category-head">{{ category_name }}</div>
-        <div class="archive-box">
-            {% for post in site.categories[category_name] %}
-            <article class="archive-item">
-                {% include meta.html post=post preview=true %}
+
+        {% for post in site.categories[category_name] %}
+
+        <article class="card">
+
+
+            <div class="tags">
+                <!-- Date in format: Year -->
+                {%- assign date_format = site.date_format -%}
+                <time datetime="{{ post.date | date_to_xmlschema }}">
+                    {{ post.date | date: date_format }}
+                </time>
+
+
+                <span class="category">
+                    {{ category_name }}
+                </span>
+
+            </div>
+
+            <div class="content">
+                <!-- Obrazek i tekst -->
                 {{ post.excerpt }}
-                <div class="button-link"><a href="{{ post.url | relative_url }}">Show Project</a></div>
-            </article>
-            {% endfor %}
-        </div>
+
+                <a class="button-link" href="{{ post.url }}">Show Project</a>
+            </div>
+        </article>
+
+
+        {% endfor %}
+        {% endfor %}
     </div>
-    {% endfor %}
+
 </main>

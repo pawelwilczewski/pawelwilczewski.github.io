@@ -6,6 +6,10 @@ categories: Personal
 
 ![XR_Challenge_Thumbnail](/assets/img/xr-challenge/xr_challenge_thumbnail.png){: width="70%" }
 
+## Crafter
+
+Sample text
+
 
 ## Summary
 

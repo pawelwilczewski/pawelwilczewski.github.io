@@ -1,31 +1,85 @@
-.category-head {
-    font-size: 3.5em;
-}
+main.page.page--projects {
+    h1 {
+        text-align: center;
+        display: block;
+        margin-bottom: 5rem;
+    }
 
-.archive {
-    font-size: 1.1em;
-}
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
 
-.archive time {
-    display: inline-block;
-    min-width: 10ch;
-    min-height: 1.75em;
-    margin: 0 .2em;
-}
+        @media only screen and (min-width: $small-width) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
 
-.archive-group {
-    margin-bottom: 10.0em;
-}
+        @media only screen and (min-width: $max-width) {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+    }
 
-.archive-box {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-    grid-gap: 1em;
-    font-size: 1.1em;
-}
+    .card {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        transition: background-color 0.3s ease-in;
 
-.archive-item {
-    min-width: 10em;
-    max-width: 20em;
-    margin: 0 auto;
+        h2 {
+            font-size: calc(1rem + ((1vw - 7.68px) * 1.3889));
+            font-weight: bold;
+            margin-block-end: 1rem;
+        }
+
+        .tags {
+            display: flex;
+            gap: 0.5rem;
+            margin-block-end: 1rem;
+
+            .category,
+            time {
+                width: fit-content;
+                padding: 6px 12px;
+                border-radius: 16px;
+                color: var(--dark-900);
+                font-weight: bold;
+                font-size: 14px;
+            }
+
+            time {
+                background-color: white;
+            }
+
+            .category {
+                background-color: white;
+            }
+        }
+
+        .content {
+            // background-color: var(--muted-bg);
+            // padding: 20px;
+
+            img {
+                width: 100%;
+                aspect-ratio: 5/3;
+                filter: grayscale(100%);
+                transition: filter 0.3s ease-in;
+            }
+
+            .button-link {
+                display: inline-block;
+                margin-top: auto;
+            }
+        }
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.208);
+
+            .content img {
+                filter: none;
+            }
+        }
+    }
 }

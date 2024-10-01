@@ -6,6 +6,10 @@ categories: Commercial
 
 ![SLT_Thumbnail](/assets/img/slt/slt_thumbnail.png){: width="80%" }
 
+## Crafter
+
+Sample text
+
 
 ## Summary
 

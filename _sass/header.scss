@@ -1,4 +1,14 @@
-.title {
-    color: inherit;
-    vertical-align: middle;
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.home {
+    color: inherit !important;
+    margin-left: auto;
+    margin: 1rem;
+}
+
+.home-image {
+    width: 2rem;
 }

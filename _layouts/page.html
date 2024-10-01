@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<header>
-    <a href="/" class="title">
-        {{ site.title | escape }}
-        &nbsp<svg aria-hidden=true class="icon">
-            <use xlink:href="{{ " /assets/fontawesome/icons.svg" | relative_url }}#keyboard"></use>
-        </svg>
+<header class="header">
+    <a href="/" class="home">
+        {% include image.html
+        src_dark="/assets/img/icons/home-dark.svg"
+        src_light="/assets/img/icons/home-light.svg"
+        image_class="home-image"%}
     </a>
-    {% include menu.html menu=pages %}
 </header>
+
 {{ content }}
