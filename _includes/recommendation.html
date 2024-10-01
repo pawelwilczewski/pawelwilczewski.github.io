@@ -1,0 +1,19 @@
+<div class="recommendation-container">
+    {% include image.html
+    src_dark=include.dark_image_src
+    src_light=include.light_image_src
+    picture_class="recommendation-picture"
+    image_class="recommendation-image" %}
+    <p class="recommendation-text">
+        {{ include.text }}
+    </p>
+    <hr class="recommendation-line">
+    <div class="recommendation-name-container">
+        <div class="recommendation-name">
+            {{ include.name }}
+        </div>
+        <div class="recommendation-role">
+            {{ include.role }}
+        </div>
+    </div>
+</div>

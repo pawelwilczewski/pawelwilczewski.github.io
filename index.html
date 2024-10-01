@@ -10,7 +10,7 @@ layout: index
             <h1 class="name">I'm&nbsp;Pawel</h1>
         </div>
         <div class="base-info-container">
-            <div class="job-title">Game&nbsp;&&nbsp;.NET Developer</div>
+            <div class="job-title">.NET&nbsp;&&nbsp;Game Developer</div>
             <div class="location">
                 <svg aria-hidden=true class="icon">
                     <use xlink:href="/assets/fontawesome/icons.svg#location-dot"></use>
@@ -358,18 +358,34 @@ layout: index
 
 <section class="section">
     <h1 class="section-heading">Recommendations</h1>
-    David Jawor Jon Carl
+
     <div class="recommendations-container">
-        <div class="recommendation-container">
-            <div class="recommendation-image"></div>
-            <div class="recommendation-text">Hello it's me and wtf omg how has this happened.</div>
-            <hr class="recommendation-line">
-            <div class="recommendation-name">
-                Jon Byles
-            </div>
-            <div class="recommendation-role">
-                Producer
-            </div>
-        </div>
+        {% include recommendation.html
+        dark_image_src="/assets/img/experience/self-employed-dark.svg"
+        light_image_src="/assets/img/experience/self-employed-light.svg"
+        text="DUPA DUPA DUPA"
+        name="Carl Waddingham"
+        role="Programming Lead at&nbsp;XR&nbsp;Games" %}
+
+        {% include recommendation.html
+        dark_image_src="/assets/img/experience/self-employed-dark.svg"
+        light_image_src="/assets/img/experience/self-employed-light.svg"
+        text="DUPA DUPA DUPA"
+        name="David Bowman"
+        role="CFO at&nbsp;XR&nbsp;Games" %}
+
+        {% include recommendation.html
+        dark_image_src="/assets/img/experience/self-employed-dark.svg"
+        light_image_src="/assets/img/experience/self-employed-light.svg"
+        text="DUPA DUPA DUPA"
+        name="Kamil Jaworski"
+        role="CEO at Jaworski Software Solutions" %}
+
+        {% include recommendation.html
+        dark_image_src="/assets/img/experience/self-employed-dark.svg"
+        light_image_src="/assets/img/experience/self-employed-light.svg"
+        text="DUPA DUPA DUPA"
+        name="Jon Byles"
+        role="Senior Producer at&nbsp;XR&nbsp;Games" %}
     </div>
 </section>
