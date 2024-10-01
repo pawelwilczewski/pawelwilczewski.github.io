@@ -47,7 +47,10 @@ layout: index
         role_slug="VR Game Programming"
         icons='
         <a title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
-            <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp.svg">
+            <picture>
+                <source srcset="/assets/img/software-icons/csharp-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp-light.svg">
+            </picture>
         </a>
         <a title="Unity" href="https://unity.com">
             <picture>
@@ -94,13 +97,22 @@ layout: index
         role_slug="Full Stack Development"
         icons='
         <a title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
-            <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp.svg">
+            <picture>
+                <source srcset="/assets/img/software-icons/csharp-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp-light.svg">
+            </picture>
         </a>
         <a title="Blazor" href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor">
-            Blazor Image
+            <picture>
+                <source srcset="/assets/img/software-icons/blazor-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="Blazor Logo" src="/assets/img/software-icons/blazor-light.svg">
+            </picture>
         </a>
         <a title="ASP.NET" href="https://dotnet.microsoft.com/en-us/apps/aspnet">
-            ASP.NET Image
+            <picture>
+                <source srcset="/assets/img/software-icons/aspnet-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="ASP.NET Logo" src="/assets/img/software-icons/aspnet-light.svg">
+            </picture>
         </a>
         '
         content="
@@ -133,18 +145,24 @@ layout: index
         " %}
 
         {% include experience-frame.html
-        light_image_src="assets/img/experience/self-employed.png"
-        dark_image_src="assets/img/experience/self-employed.png"
+        light_image_src="assets/img/experience/self-employed-light.svg"
+        dark_image_src="assets/img/experience/self-employed-dark.svg"
         time="Mar 2022 - Present"
         role_title="Add-on Developer"
         role_type="Self-employed"
         role_slug="3D Software Extensions Development"
         icons='
         <a title="Python" href="https://python.org">
-            <img class="technology-icon" alt="Python Logo" src="/assets/img/software-icons/python-logo-generic.svg">
+            <picture>
+                <source srcset="/assets/img/software-icons/python-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="Python Logo" src="/assets/img/software-icons/python-light.svg">
+            </picture>
         </a>
         <a title="Blender Foundation" href="https://blender.org">
-            <img class="technology-icon" alt="Blender Logo" src="/assets/img/software-icons/blender_logo_socket.png">
+            <picture>
+                <source srcset="/assets/img/software-icons/blender-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="Blender Logo" src="/assets/img/software-icons/blender-light.svg">
+            </picture>
         </a>
         '
         content="
@@ -177,15 +195,18 @@ layout: index
         " %}
 
         {% include experience-frame.html
-        light_image_src="assets/img/experience/self-employed.png"
-        dark_image_src="assets/img/experience/self-employed.png"
+        light_image_src="assets/img/experience/self-employed-light.svg"
+        dark_image_src="assets/img/experience/self-employed-dark.svg"
         time="Jun 2021 - Sep 2022 WIP"
         role_title="Game Component Creator"
         role_type="Self-employed"
         role_slug="Game Engine Components Programming"
         icons='
         <a title="C++" href="https://isocpp.org/std">
-            <img class="technology-icon" alt="ISO C++ Logo" src="/assets/img/software-icons/cpp_logo.png">
+            <picture>
+                <source srcset="/assets/img/software-icons/cpp-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" src="/assets/img/software-icons/cpp-light.svg">
+            </picture>
         </a>
         <a title="Unreal Engine" href="https://www.unrealengine.com">
             <picture>
@@ -233,15 +254,21 @@ layout: index
     <div class="featured-container">
         <a class="featured-item" href="/commercial/starship-troopers-vr">
             <span class="featured-heading">Starship Troopers VR</span>
-            <img class="featured-image" src="/assets/img/starship-troopers-vr/Starship_Trooper_Continuum_Keyart.png">
+            <div class="featured-image-container">
+                <img class="featured-image" src="/assets/img/starship-troopers-vr/thumbnail.png">
+            </div>
         </a>
         <a class="featured-item" href="/commercial/node-editor">
             <span class="featured-heading">Node Editor</span>
-            <img class="featured-image" src="/assets/img/node-editor/NodeEditor.png">
+            <div class="featured-image-container">
+                <img class="featured-image" src="/assets/img/node-editor/NodeEditor.png">
+            </div>
         </a>
         <a class="featured-item" href="/commercial/modularfps">
             <span class="featured-heading">Modular FPS</span>
-            <img class="featured-image" src="/assets/img/modularfps/modularfps_thumbnail.png">
+            <div class="featured-image-container">
+                <img class="featured-image" src="/assets/img/modularfps/modularfps_thumbnail.png">
+            </div>
         </a>
     </div>
 
@@ -257,28 +284,34 @@ layout: index
 
     <div class="skill-box">
         <div class="skill">
-            Game Development
+            Gameplay Programming
         </div>
         <div class="skill">
-            Programming
+            Full Stack Development
         </div>
         <div class="skill">
-            Game Design
+            Code Design & Architecture
         </div>
         <div class="skill">
-            Pipeline Programming
+            Design Patterns
         </div>
         <div class="skill">
-            Graphics Programming
+            Clean Code
+        </div>
+        <div class="skill">
+            Cross-platform & Console Development
+        </div>
+        <div class="skill">
+            Optimization & Performance
         </div>
         <div class="skill">
             Object-oriented Approaches
         </div>
         <div class="skill">
-            Asset Creation
+            Functional Programming
         </div>
         <div class="skill">
-            Procedural Animation
+            Managing Technical Debt
         </div>
     </div>
 </section>
@@ -286,7 +319,10 @@ layout: index
 <section class="section">
     <h1 class="section-heading">About Me</h1>
     <div class="about-me-container">
-        <div class="wave">👋</div>
+        <picture>
+            <source srcset="/assets/img/icons/hand-shake-dark.svg" media="(prefers-color-scheme: light)">
+            <img class="wave" alt="Hand waving." src="/assets/img/icons/hand-shake-light.svg">
+        </picture>
         <div>
             <p>
                 I started my game development journey in 2017. Since then, I have worked on multiple projects in various
@@ -321,6 +357,6 @@ layout: index
 </section>
 
 <section class="section">
-    <h2 class="section-heading">Recommendations</h2>
+    <h1 class="section-heading">Recommendations</h1>
     David Jawor Jon Carl
 </section>

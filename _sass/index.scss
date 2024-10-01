@@ -1,6 +1,6 @@
 .intro-container {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr auto;
   grid-template-rows: auto 0fr auto;
   align-items: center;
 }
@@ -9,6 +9,7 @@
   grid-column: 1 / 2;
   grid-row: 1;
   margin-bottom: 1rem;
+  margin-top: 12rem;
 }
 
 .hello {
@@ -29,7 +30,7 @@
 .base-info-container {
   grid-column: 1;
   grid-row: 2;
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 .job-title {
@@ -46,12 +47,13 @@
 .intro-buttons {
   display: flex;
   gap: 2rem;
+  margin-bottom: 12rem;
 }
 
 .intro-picture {
   grid-column: 2;
   grid-row: 1 / 4;
-  height: 140%;
+  width: 90%;
   justify-self: center;
 }
 
@@ -65,6 +67,7 @@
   .hello-container {
     justify-self: center;
     margin-bottom: 0;
+    margin-top: 5rem;
   }
 
   .intro-picture {
@@ -78,6 +81,10 @@
     grid-row: 3;
     margin-top: 0;
     justify-self: center;
+  }
+
+  .intro-buttons {
+    margin-bottom: 10rem;
   }
 }
 
@@ -132,11 +139,23 @@
   color: var(--fg);
 }
 
+.featured-image-container {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  aspect-ratio: 16 / 9;
+}
+
 .featured-image {
   width: 100%;
-  aspect-ratio: 16 / 9;
   object-fit: contain;
-  border-radius: 0.5rem;
+  filter: saturate(0%);
+  transition: transform 0.1s ease-in;
+
+  &:hover {
+    filter: saturate(100%);
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in;
+  }
 }
 
 .see-more-container {
@@ -162,7 +181,7 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
   transform-origin: 72% 72%;
-  font-size: 8rem;
+  width: 8rem;
 }
 
 .skill-box {
