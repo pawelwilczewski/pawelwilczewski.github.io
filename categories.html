@@ -4,8 +4,11 @@ permalink: /categories/
 title: All Projects
 ---
 
-<main class="page page--projects">
-    <h1>My Projects</h1>
+<main class="projects">
+    <div class="page-heading">
+        <h1>My Projects</h1>
+        {% include home-button.html %}
+    </div>
 
     <div class="grid">
         {% for category in site.categories %}

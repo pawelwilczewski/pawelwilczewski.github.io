@@ -2,12 +2,21 @@
 layout: page
 ---
 
-<article>
-    <div style="margin-bottom: 20px;">
-        <a href="/categories">Back to Projects</a>
+<article class="post">
+
+    <div class="page-heading">
+        <h1>{{ page.title }}</h1>
+        <nav>
+            <a class="button-link" href="/categories">
+                All&nbsp;Projects&nbsp;<svg aria-hidden=true class="icon">
+                    <use xlink:href="/assets/fontawesome/icons.svg#code"></use>
+                </svg>
+            </a>
+            {% include home-button.html %}
+        </nav>
     </div>
-    {% include meta.html post=page %}
-    <hr>
+
+
     {{ content }}
     {% if page.comments != false and site.comments.isso or site.comments.disqus %}
     <hr>

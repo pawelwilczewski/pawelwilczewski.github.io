@@ -1,10 +1,4 @@
-main.page.page--projects {
-    h1 {
-        text-align: center;
-        display: block;
-        margin-bottom: 5rem;
-    }
-
+.projects {
     .grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -73,11 +67,6 @@ main.page.page--projects {
                 filter: grayscale(100%);
 
                 transition: filter 0.1s ease-in;
-            }
-
-            .button-link {
-                display: inline-block;
-                margin-top: auto;
             }
         }
 

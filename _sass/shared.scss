@@ -4,6 +4,8 @@
   outline: $border-width solid var(--primary);
   padding: .4em .8em;
   text-align: center;
+  width: fit-content;
+  height: fit-content;
 
   &:hover {
     color: var(--fg);
@@ -52,4 +54,22 @@
     padding: 20%;
     transform: translate(0, -6%);
   }
+}
+
+.home {
+  color: inherit !important;
+  margin-left: auto;
+}
+
+.home-image {
+  width: 2rem;
+}
+
+.page-heading {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap-reverse;
 }
