@@ -16,6 +16,10 @@
         text-align: center;
     }
 
+    h2:not(:first-of-type) {
+        margin-top: 2rem;
+    }
+
     img {
         display: block;
         margin-left: auto;
