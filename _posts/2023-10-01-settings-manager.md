@@ -1,15 +1,15 @@
 ---
-title: "Smart Loops Toolkit"
+title: "Settings Manager"
 layout: post
 categories: Commercial
 tags: Python Blender
 ---
 
-![SLT_Thumbnail](/assets/img/slt/slt_thumbnail.png){: width="80%" }
+![Settings Manager Thumbnail](/assets/img/settings-manager/thumbnail.png)
 
 <h2>{{ page.title }}</h2>
 
-Add-on for speeding up modelling workflow.
+Add-on allowing for storing and switching between user.
 
 
 Whenever modelling in Blender, I always seemed to miss a few essential tools, which could have speeded up my workflow by

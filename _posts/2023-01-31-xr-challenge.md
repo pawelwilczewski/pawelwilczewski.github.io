@@ -2,31 +2,31 @@
 title: "XR Challenge"
 layout: post
 categories: Personal
+tags: C# Unity
 ---
 
 ![XR_Challenge_Thumbnail](/assets/img/xr-challenge/xr_challenge_thumbnail.png){: width="70%" }
 
-## Crafter
+<h2>{{ page.title }}</h2>
 
-Sample text
+Published puzzle game developed for XR Games Futures program with controller support.
 
 
-## Summary
-
-My `Unity` game submission to the [XR Games Futures Programming Test](https://github.com/XRGames/xr-challenge). Time spent ~25 days.
+My `Unity` game submission to the [XR Games Futures Programming Test](https://github.com/XRGames/xr-challenge). Time
+spent ~25 days.
 
 The game features:
 - Event-based architecture
 - Custom and reusable movement component made from scratch not using `Rigidbody` or `Unity CharacterController`
-    - Jumping, dashing, crouching
-    - High level of customisation
-    ![MovementComponentCustomisation](/assets/img/xr-challenge/movementcomponent.png)
+- Jumping, dashing, crouching
+- High level of customisation
+![MovementComponentCustomisation](/assets/img/xr-challenge/movementcomponent.png)
 - Lift (elevator) system
 - Pickup and interaction systems
 - Fully animated characters
-    - Movement, including dashing
-    - Interaction
-    - Death
+- Movement, including dashing
+- Interaction
+- Death
 - Game narrative system
 - Hostile AI with pathfinding
 - Basic SFX

@@ -19,7 +19,7 @@
         flex-direction: column;
 
         h2 {
-            font-size: calc(1.4rem + ((1vw - 8.68px) * 1.3889));
+            font-size: calc(1rem + ((1vw - 8.68px) * 1.3889));
             font-weight: bold;
             margin-block-end: 1rem;
         }
@@ -43,6 +43,10 @@
                 filter: grayscale(60%);
 
                 transition: filter 0.1s ease-in;
+            }
+
+            p:last-of-type {
+                margin-bottom: 0;
             }
         }
     }

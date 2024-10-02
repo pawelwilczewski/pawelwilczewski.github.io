@@ -82,3 +82,11 @@ th, td {
 tr:hover, tr:nth-child(odd) td {
   background: reduce(4);
 }
+
+code {
+  background-color: var(--muted-bg);
+  color: var(--muted-fg);
+  font-family: monospace;
+  padding: 2px 4px;
+  border-radius: 4px;
+}

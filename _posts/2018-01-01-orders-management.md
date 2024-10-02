@@ -1,22 +1,22 @@
 ---
-title: "Furniture Orders Manager"
+title: "Orders Manager"
 layout: post
 categories: Commercial
-tags: C#
+tags: C# WinForms
 ---
 
 ![OrdersManagement_Thumbnail](/assets/img/orders-management/Screenshot_6.png){: width="80%" }
 
-## Furniture Orders Manager
+<h2>{{ page.title }}</h2>
 
-fdsjfod jsodf
+An application for managing and tracking highly custom furniture orders.
 
-
-## Summary
 
 `C# WinForms` application built for the specific needs of an upholstery company based in Poland. The app allows for
 inputting and managing furniture orders with simplicity and customisation in mind.
 
+![OrdersManagement_Thumbnail](/assets/img/orders-management/Screenshot_6.png)
+*Default window layout*
 
 ![OM_Screenshot_0](/assets/img/orders-management/Screenshot_2.png)
 *Space-efficient printing*
