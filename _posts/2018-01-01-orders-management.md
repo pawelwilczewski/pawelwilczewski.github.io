@@ -13,7 +13,8 @@ fdsjfod jsodf
 
 ## Summary
 
-`C# .NET` application built for the specific needs of an upholstery company based in Poland. The app allows for inputting and managing furniture orders with flexibility and customisation in mind.
+`C# WinForms` application built for the specific needs of an upholstery company based in Poland. The app allows for
+inputting and managing furniture orders with simplicity and customisation in mind.
 
 
 ![OM_Screenshot_0](/assets/img/orders-management/Screenshot_2.png)
@@ -30,5 +31,3 @@ fdsjfod jsodf
 
 ![OM_Screenshot_4](/assets/img/orders-management/Screenshot_5.png)
 *Add new order form*
-
-
