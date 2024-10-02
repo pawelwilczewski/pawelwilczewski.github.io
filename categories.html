@@ -4,24 +4,17 @@ permalink: /categories/
 title: All Projects
 ---
 
-<main class="projects">
+<main>
     <header class="page-heading">
         <h1>My Projects</h1>
         {% include home-button.html %}
     </header>
 
-    <div class="grid">
+    <div class="projects-grid">
         {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
         {% for post in site.categories[category_name] %}
-        <a class="card-container" href="{{ post.url }}">
-            <article class="card">
-                {% include tags.html post=post %}
-                <div class="content">
-                    {{ post.excerpt }}
-                </div>
-            </article>
-        </a>
+        {% include project-card.html post=post %}
         {% endfor %}
         {% endfor %}
     </div>

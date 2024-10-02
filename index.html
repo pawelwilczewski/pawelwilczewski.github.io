@@ -251,25 +251,15 @@ layout: index
 <section class="section">
     <h1 class="section-heading">Featured Work</h1>
 
-    <div class="featured-container">
-        <a class="featured-item" href="/commercial/starship-troopers-vr">
-            <span class="featured-heading">Starship Troopers VR</span>
-            <div class="featured-image-container">
-                <img class="featured-image" src="/assets/img/starship-troopers-vr/thumbnail.png">
-            </div>
-        </a>
-        <a class="featured-item" href="/commercial/node-editor">
-            <span class="featured-heading">Node Editor</span>
-            <div class="featured-image-container">
-                <img class="featured-image" src="/assets/img/node-editor/NodeEditor.png">
-            </div>
-        </a>
-        <a class="featured-item" href="/commercial/modularfps">
-            <span class="featured-heading">Modular FPS</span>
-            <div class="featured-image-container">
-                <img class="featured-image" src="/assets/img/modularfps/modularfps_thumbnail.png">
-            </div>
-        </a>
+    <div class="projects-grid">
+        {% for post in site.categories['Commercial'] %}
+        {% if
+        post.title contains 'Modular'
+        or post.title contains 'UEx'
+        or post.title contains 'Orders' %}
+        {% include project-card.html post=post %}
+        {% endif %}
+        {% endfor %}
     </div>
 
     <div class="see-more-container">
@@ -379,7 +369,7 @@ layout: index
         light_image_src="/assets/img/experience/self-employed-light.svg"
         text="DUPA DUPA DUPA"
         name="Kamil Jaworski"
-        role="CEO at&nbsp;Jaworski&nbsp;Software&nbsp;Solutions" %}
+        role="CEO at Jaworski Software&nbsp;Solutions" %}
 
         {% include recommendation.html
         dark_image_src="/assets/img/experience/self-employed-dark.svg"

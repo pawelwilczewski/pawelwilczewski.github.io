@@ -1,0 +1,8 @@
+<a class="card-container" href="{{ include.post.url }}">
+    <article class="card">
+        {% include tags.html post=include.post %}
+        <div class="content">
+            {{ include.post.excerpt }}
+        </div>
+    </article>
+</a>
