@@ -8,6 +8,10 @@
     align-items: center;
     flex-wrap: wrap;
     max-width: 400px;
+
+    &:hover {
+        background-color: var(--muted-bg);
+    }
 }
 
 .recommendation-picture {
@@ -25,11 +29,12 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
     padding: 0 3rem;
+    color: var(--muted-fg);
 }
 
 .recommendation-line {
-    color: var(--muted-bg);
-    width: 50%;
+    border-color: var(--muted-fg);
+    width: 70%;
 }
 
 .recommendation-name-container {
@@ -37,9 +42,10 @@
 }
 
 .recommendation-name {
-    color: var(--muted-fg);
+    margin-bottom: 0.5rem;
 }
 
 .recommendation-role {
-    color: var(--muted-bg);
+    color: var(--muted-fg);
+    font-size: 0.8rem;
 }
