@@ -1,6 +1,6 @@
 .button-link {
   user-select: none;
-  border-radius: 1000000px;
+  border-radius: $border-full;
   outline: $border-width solid var(--primary);
   padding: .4em .8em;
   text-align: center;
@@ -37,7 +37,7 @@
   display: flex;
 
   background-color: var(--muted-bg);
-  border-radius: 1000000px;
+  border-radius: $border-full;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.2s ease-in-out;

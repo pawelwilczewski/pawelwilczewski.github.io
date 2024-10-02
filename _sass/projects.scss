@@ -38,7 +38,7 @@ main.page.page--projects {
         flex-direction: column;
 
         h2 {
-            font-size: calc(1rem + ((1vw - 7.68px) * 1.3889));
+            font-size: calc(1.4rem + ((1vw - 8.68px) * 1.3889));
             font-weight: bold;
             margin-block-end: 1rem;
         }
@@ -51,27 +51,18 @@ main.page.page--projects {
             .category,
             time {
                 width: fit-content;
-                padding: 6px 12px;
-                border-radius: 16px;
-                color: var(--dark-900);
+                padding: 0.5rem 1rem;
+                border-radius: $border-full;
+                color: var(--bg);
                 font-weight: bold;
-                font-size: 14px;
-            }
-
-            time {
-                background-color: white;
-            }
-
-            .category {
-                background-color: white;
+                font-size: 0.9rem;
+                background-color: var(--fg);
             }
         }
 
         .content {
             p {
-                &:first {
-                    overflow: hidden;
-                }
+                overflow: hidden;
             }
 
             img {
