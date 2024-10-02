@@ -8,7 +8,7 @@
   height: fit-content;
 
   &:hover {
-    color: var(--fg);
+    color: var(--light-900);
     background: var(--secondary);
     background: linear-gradient(45deg, var(--secondary) 0%, rgba(var(--primary-rgb), 0.447) 100%);
     outline: transparent;
@@ -56,13 +56,8 @@
   }
 }
 
-.home {
-  color: inherit !important;
-  margin-left: auto;
-}
-
 .home-image {
-  width: 2rem;
+  height: 1rem;
 }
 
 .page-heading {
@@ -70,6 +65,7 @@
   margin-bottom: 3rem;
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap-reverse;
+  align-items: start;
 }
