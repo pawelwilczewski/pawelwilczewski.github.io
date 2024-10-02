@@ -37,23 +37,6 @@
             margin-block-end: 1rem;
         }
 
-        .tags {
-            display: flex;
-            gap: 0.5rem;
-            margin-block-end: 1rem;
-
-            .category,
-            time {
-                width: fit-content;
-                padding: 0.5rem 1rem;
-                border-radius: $border-full;
-                color: var(--bg);
-                font-weight: bold;
-                font-size: 0.9rem;
-                background-color: var(--fg);
-            }
-        }
-
         .content {
             p {
                 overflow: hidden;

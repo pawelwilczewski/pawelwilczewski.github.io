@@ -4,8 +4,20 @@ layout: page
 
 <article class="post">
 
-    <div class="page-heading">
-        <h1>{{ page.title }}</h1>
+    <header class="page-heading">
+        <div>
+            <h1>{{ page.title }}</h1>
+            <div class="tags">
+                {% capture category_name %}{{ page.categories | first }}{% endcapture %}
+                {%- assign date_format = site.date_format -%}
+                <time datetime="{{ page.date | date_to_xmlschema }}">
+                    {{ page.date | date: date_format }}
+                </time>
+                <span class="category">
+                    {{ category_name }}
+                </span>
+            </div>
+        </div>
         <nav>
             <a class="button-link" href="/categories">
                 All&nbsp;Projects&nbsp;<svg aria-hidden=true class="icon">
@@ -14,8 +26,7 @@ layout: page
             </a>
             {% include home-button.html %}
         </nav>
-    </div>
-
+    </header>
 
     {{ content }}
     {% if page.comments != false and site.comments.isso or site.comments.disqus %}
