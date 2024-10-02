@@ -16,15 +16,7 @@ title: All Projects
         {% for post in site.categories[category_name] %}
         <a class="card-container" href="{{ post.url }}">
             <article class="card">
-                <div class="tags">
-                    {%- assign date_format = site.date_format -%}
-                    <time datetime="{{ post.date | date_to_xmlschema }}">
-                        {{ post.date | date: date_format }}
-                    </time>
-                    <span class="category">
-                        {{ category_name }}
-                    </span>
-                </div>
+                {% include tags.html post=post %}
                 <div class="content">
                     {{ post.excerpt }}
                 </div>

@@ -2,6 +2,7 @@
 title: "Furniture Orders Manager"
 layout: post
 categories: Commercial
+tags: C#
 ---
 
 ![OrdersManagement_Thumbnail](/assets/img/orders-management/Screenshot_6.png){: width="80%" }
