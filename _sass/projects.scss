@@ -25,7 +25,7 @@ main.page.page--projects {
         display: flex;
         flex-direction: column;
         position: relative;
-        transition: background-color 0.3s ease-in;
+        transition: background-color 0.1s ease-in;
 
         h2 {
             font-size: calc(1rem + ((1vw - 7.68px) * 1.3889));
@@ -58,14 +58,13 @@ main.page.page--projects {
         }
 
         .content {
-            // background-color: var(--muted-bg);
-            // padding: 20px;
 
             img {
                 width: 100%;
                 aspect-ratio: 5/3;
+                object-fit: contain;
                 filter: grayscale(100%);
-                transition: filter 0.3s ease-in;
+                transition: filter 0.1s ease-in;
             }
 
             .button-link {
