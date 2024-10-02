@@ -11,22 +11,22 @@ title: All Projects
         {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
         {% for post in site.categories[category_name] %}
-        <article class="card">
-            <div class="tags">
-                {%- assign date_format = site.date_format -%}
-                <time datetime="{{ post.date | date_to_xmlschema }}">
-                    {{ post.date | date: date_format }}
-                </time>
-                <span class="category">
-                    {{ category_name }}
-                </span>
-            </div>
-            <div class="content">
-                {{ post.excerpt }}
-
-                <a class="button-link" href="{{ post.url }}">Show Project</a>
-            </div>
-        </article>
+        <a class="card-container" href="{{ post.url }}">
+            <article class="card">
+                <div class="tags">
+                    {%- assign date_format = site.date_format -%}
+                    <time datetime="{{ post.date | date_to_xmlschema }}">
+                        {{ post.date | date: date_format }}
+                    </time>
+                    <span class="category">
+                        {{ category_name }}
+                    </span>
+                </div>
+                <div class="content">
+                    {{ post.excerpt }}
+                </div>
+            </article>
+        </a>
         {% endfor %}
         {% endfor %}
     </div>

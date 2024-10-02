@@ -21,11 +21,21 @@ main.page.page--projects {
         }
     }
 
+    .card-container {
+        border-radius: 0.5rem;
+        color: inherit;
+        border: $border-width solid var(--muted-bg);
+        padding: 1rem;
+        height: fit-content;
+
+        &:hover {
+            background-color: var(--muted-bg);
+        }
+    }
+
     .card {
         display: flex;
         flex-direction: column;
-        position: relative;
-        transition: background-color 0.1s ease-in;
 
         h2 {
             font-size: calc(1rem + ((1vw - 7.68px) * 1.3889));
@@ -58,12 +68,19 @@ main.page.page--projects {
         }
 
         .content {
+            p {
+                &:first {
+                    overflow: hidden;
+                }
+            }
 
             img {
                 width: 100%;
                 aspect-ratio: 5/3;
                 object-fit: contain;
+                transform: scale(1);
                 filter: grayscale(100%);
+
                 transition: filter 0.1s ease-in;
             }
 
@@ -74,10 +91,9 @@ main.page.page--projects {
         }
 
         &:hover {
-            background-color: rgba(255, 255, 255, 0.208);
-
             .content img {
-                filter: none;
+                transform: scale(1.05);
+                filter: grayscale(0%);
             }
         }
     }
