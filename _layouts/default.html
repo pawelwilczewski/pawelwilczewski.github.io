@@ -7,14 +7,14 @@
 <meta name="generator" content="Jekyll v{{ jekyll.version }}">
 <link rel="icon" href="/assets/img/favicon.svg" sizes="any" type="image/svg+xml">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
-<link rel="stylesheet" href="{{ " /assets/css/main.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 {% if site.plugins contains "jekyll-feed" %}
-<link rel="alternate" href="{{ site.feed.path | default: " /feed.xml" | relative_url }}" type="application/atom+xml"
+<link rel="alternate" href="{{ site.feed.path | default: "/feed.xml" | relative_url }}" type="application/atom+xml"
   title="{{ site.title }}">{% endif %}
 {% if page.mathjax or site.mathjax %}
-<link rel="stylesheet" href="{{ " /assets/katex/katex.min.css" | relative_url }}">
-<script defer src="{{ " /assets/katex/katex.min.js" | relative_url }}"></script>
-<script defer src="{{ " /assets/katex/contrib/auto-render.min.js" | relative_url }}"
+<link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}">
+<script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
+<script defer src="{{ "/assets/katex/contrib/auto-render.min.js" | relative_url }}"
   onload="renderMathInElement(document.body)"></script>
 {% endif %}
 {% if site.comments.disqus_shortname and page.layout == "post" %}
