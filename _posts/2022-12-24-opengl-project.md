@@ -5,7 +5,7 @@ categories: University
 tags: C++ OpenGL
 ---
 
-![OpenGL_Project_Thumbnail](/assets/img/opengl-project/opengl_project_thumbnail.png){: width="80%" }
+![OpenGL_Project_Thumbnail](/assets/img/opengl-project/opengl_project_thumbnail.png)
 
 <h2>{{ page.title }}</h2>
 

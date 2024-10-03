@@ -5,16 +5,20 @@ categories: Commercial
 tags: Python Blender
 ---
 
-![Settings Manager Thumbnail](/assets/img/settings-manager/thumbnail.png)
+![Settings Manager Thumbnail](/assets/img/settings-manager/sm_icon.png)
 
 <h2>{{ page.title }}</h2>
 
-Add-on allowing for storing and switching between user.
+Add-on for storing and switching between user settings. Most useful when creating art for various target software or
+styles.
 
 
-Whenever modelling in Blender, I always seemed to miss a few essential tools, which could have speeded up my workflow by
-a big margin. I decided to code them myself and pack them into an add-on. The documentation and all required information
-is available on [Blender Market](https://blendermarket.com/products/smart-loops-toolkit) and
-[Gumroad](https://pawelwilczewski.gumroad.com/l/smart-loops-toolkit).
+Add-on for storing and switching between user settings. Most useful when creating art for various target software or
+styles.
 
-![SLT_Screenshot_1](/assets/img/slt/access.png)
+Available now on [Blender Market](https://blendermarket.com/products/settings-manager) and
+[Gumroad](https://pawelwilczewski.gumroad.com/l/settings-manager).
+
+{% include embed.html url="https://youtube.com/embed/B8_nwKPbHGw" %}
+
+![Settings Manager menu](/assets/img/settings-manager/ui_desc.png){: width="80%" }
