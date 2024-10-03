@@ -1,0 +1,315 @@
+---
+title: "Home"
+layout: index
+---
+
+<section class="section">
+    <div class="intro-container">
+        <div class="hello-container">
+            <h2 class="hello">Hello,</h2>
+            <h1 class="name">I'm&nbsp;Pawel</h1>
+        </div>
+        <div class="base-info-container">
+            <div class="job-title">.NET&nbsp;&&nbsp;Game&nbsp;Developer</div>
+            <div class="location">
+                <svg aria-hidden=true class="icon">
+                    <use xlink:href="/assets/fontawesome/icons.svg#location-dot"></use>
+                </svg>
+                Leeds, United&nbsp;Kingdom
+            </div>
+            <nav class="intro-buttons">
+                <a class="button-link" href="/assets/docs/resume.pdf">
+                    Resume&nbsp;<svg aria-hidden=true class="icon">
+                        <use xlink:href="/assets/fontawesome/icons.svg#file"></use>
+                    </svg>
+                </a>
+                <a class="button-link" href="/categories">
+                    Projects&nbsp;<svg aria-hidden=true class="icon">
+                        <use xlink:href="/assets/fontawesome/icons.svg#code"></use>
+                    </svg>
+                </a>
+            </nav>
+        </div>
+        <img class="intro-picture" src="/assets/img/profile-picture/with_blur.png">
+    </div>
+</section>
+
+<section class="section">
+    <h1 class="section-heading">Experience</h1>
+    <div class="experience-frames-container">
+
+        {% include experience-frame.html
+        light_image_src="assets/img/experience/xrgames-light.png"
+        dark_image_src="assets/img/experience/xrgames-dark.png"
+        time="Jun 2023 - Present"
+        role_title="Programmer"
+        role_type="Full Time"
+        role_slug="VR Game Programming"
+        icons='
+        <a title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
+            <picture>
+                <source srcset="/assets/img/software-icons/csharp-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp-light.svg">
+            </picture>
+        </a>
+        <a title="Unity" href="https://unity.com">
+            <picture>
+                <source srcset="/assets/img/software-icons/U_Logo_Small_Black_RGB_1C-cropped.svg"
+                    media="(prefers-color-scheme: light)">
+                <img class="technology-icon" src="/assets/img/software-icons/U_Logo_Small_White_RGB_1C-cropped.svg">
+            </picture>
+        </a>
+        '
+        content="
+        <p>
+            During my time at XR Games I was working Starship Troopers: Continuum: a VR, story-driven, multiplayer co-op
+            first-person shooter in the universe of the famous IP. I designed and implemented reusable, optimised
+            code to ensure seamless networked gameplay across multiple platforms. Working closely with designers, I
+            paid close attention to developing user-friendly tooling allowing for implementing in-game behaviour
+            efficiently. I was responsible for solely developing and polishing advanced game features from concept to
+            completion.
+        </p>
+        <p>
+            My work included implementing a networked narrative system that
+            drove key events and objectives across the entire game, engineering flexible and feature-rich enemy spawning
+            and behaviour systems. I also integrated platform-specific features such as headset rumble, eye tracking,
+            and adaptive triggers for PSVR2®. Additionally, I optimised runtime performance and loading times to meet
+            strict platform requirements, overcoming engine limitations for smooth scene transitions. My contributions
+            extended to various miscellaneous gameplay elements, including character customization, dialogue system,
+            world interactions, collectibles, and more.
+        </p>
+        " %}
+
+        {% include experience-frame.html
+        light_image_src="assets/img/experience/jaworski-light.svg"
+        dark_image_src="assets/img/experience/jaworski-dark.svg"
+        time="Feb 2024 - Present"
+        role_title="Programmer"
+        role_type="Contract"
+        role_slug="Full Stack Development"
+        icons='
+        <a title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
+            <picture>
+                <source srcset="/assets/img/software-icons/csharp-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp-light.svg">
+            </picture>
+        </a>
+        <a title="Blazor" href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor">
+            <picture>
+                <source srcset="/assets/img/software-icons/blazor-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="Blazor Logo" src="/assets/img/software-icons/blazor-light.svg">
+            </picture>
+        </a>
+        <a title="ASP.NET" href="https://dotnet.microsoft.com/en-us/apps/aspnet">
+            <picture>
+                <source srcset="/assets/img/software-icons/aspnet-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="ASP.NET Logo" src="/assets/img/software-icons/aspnet-light.svg">
+            </picture>
+        </a>
+        '
+        content="
+        <p>
+            During my contract at Jaworski Software Solutions I developed a full stack web application
+            featuring a feature-rich, fully extendable and customisable node editor. I was responsible for setting up
+            the project from the ground up using Blazor, Entity Framework Core, TailwindCSS, PostgreSQL utilising best
+            practices and clean architecture.
+        </p>
+        <p>
+            The application was designed to facilitate easy extending with no unnecessary boilerplate. Integration of
+            other APIs was made trivial, supporting dependency injection and multiple ways of registering new behaviour.
+            Nodes execution maximises parallel processing, and can be fully customised by the consumer.
+        </p>
+        " %}
+
+        {% include experience-frame.html
+        light_image_src="assets/img/experience/self-employed-light.svg"
+        dark_image_src="assets/img/experience/self-employed-dark.svg"
+        time="Mar 2022 - Present"
+        role_title="Add-on Developer"
+        role_type="Self-employed"
+        role_slug="3D Software Extensions Development"
+        icons='
+        <a title="Python" href="https://python.org">
+            <picture>
+                <source srcset="/assets/img/software-icons/python-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="Python Logo" src="/assets/img/software-icons/python-light.svg">
+            </picture>
+        </a>
+        <a title="Blender Foundation" href="https://blender.org">
+            <picture>
+                <source srcset="/assets/img/software-icons/blender-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="Blender Logo" src="/assets/img/software-icons/blender-light.svg">
+            </picture>
+        </a>
+        '
+        content="
+        <p>
+            As an independent creator, I have released and published three financially successful add-ons for Blender
+            within the past two years. I provide consistent support, release updates, resolve issues and respond to
+            customers. My clean code techniques and pre-planned design came especially helpful to ensure new features
+            and fixes can be implemented when needed.
+            I am determined to only publish good quality products and I have received very positive feedback for
+            my work.
+        </p>
+        " %}
+
+        {% include experience-frame.html
+        light_image_src="assets/img/experience/self-employed-light.svg"
+        dark_image_src="assets/img/experience/self-employed-dark.svg"
+        time="Jun 2021 - Sep 2022 WIP"
+        role_title="Game Developer"
+        role_type="Self-employed"
+        role_slug="Game Engine Components Programming"
+        icons='
+        <a title="C++" href="https://isocpp.org/std">
+            <picture>
+                <source srcset="/assets/img/software-icons/cpp-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" src="/assets/img/software-icons/cpp-light.svg">
+            </picture>
+        </a>
+        <a title="Unreal Engine" href="https://www.unrealengine.com">
+            <picture>
+                <source srcset="/assets/img/software-icons/UE-Icon-2023-Black.svg"
+                    media="(prefers-color-scheme: light)">
+                <img class="technology-icon" src="/assets/img/software-icons/UE-Icon-2023-White.svg">
+            </picture>
+        </a>
+        '
+        content="
+        <p>
+            I have been developing a large-scale Unreal Engine template project allowing for quick implementation of
+            high-fidelity first-person shooter games with ease and great control and flexibility. The implementation of
+            any specific aspect can be done in C++ or Blueprints to facilitate better accessibility for the users.
+            When ready, the project will be released on Fab (formerly Unreal Engine Marketplace).
+        </p>
+        " %}
+
+    </div>
+</section>
+
+<section class="section">
+    <h1 class="section-heading">Featured Work</h1>
+
+    <div class="projects-grid">
+        {% for post in site.categories['Commercial'] %}
+        {% if
+        post.title contains 'Starship Troopers'
+        or post.title contains 'ModularFPS'
+        or post.title contains 'Node Editor' %}
+        {% include project-card.html post=post %}
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="see-more-container">
+        <a class="button-link" href="/categories">
+            See More
+        </a>
+    </div>
+</section>
+
+<section class="section">
+    <h1 class="section-heading">Skills</h1>
+
+    <div class="skill-box">
+        <div class="skill">
+            Gameplay Programming
+        </div>
+        <div class="skill">
+            Full Stack Development
+        </div>
+        <div class="skill">
+            Code Design & Architecture
+        </div>
+        <div class="skill">
+            Design Patterns
+        </div>
+        <div class="skill">
+            Clean Code
+        </div>
+        <div class="skill">
+            Cross-platform & Console Development
+        </div>
+        <div class="skill">
+            Optimization & Performance
+        </div>
+        <div class="skill">
+            Object-oriented Approaches
+        </div>
+        <div class="skill">
+            Functional Programming
+        </div>
+        <div class="skill">
+            Managing Technical Debt
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h1 class="section-heading">About Me</h1>
+    <div class="about-me-container">
+        <picture>
+            <source srcset="/assets/img/icons/hand-shake-dark.svg" media="(prefers-color-scheme: light)">
+            <img class="wave" alt="Hand waving." src="/assets/img/icons/hand-shake-light.svg">
+        </picture>
+        <div>
+            <p>
+                I started my programming journey in 2016. Since then, I have worked on multiple projects in various
+                game, web and app development areas. I have been passionate about programming for many years, always
+                valuing high quality, robust code with a big emphasis on maintainability.
+            </p>
+
+            <p>
+                My latest work experience includes developing a
+                <a href="/commercial/starship-troopers/">VR game</a> at XR Games and a
+                <a href="/commercial/node-editor/">Blazor application</a> for Jaworski
+                Software Solutions. I am the author of
+                three successful Blender add-ons available on
+                <a href="https://blendermarket.com/creators/pawel-wilczewski">Blender Market</a>.
+                Among other projects, I currently work on <a href="/commercial/modularfps/">ModularFPS</a> &#8212;
+                an Unreal Engine 5 template for rapid and quality First Person Shooter development.
+            </p>
+
+            <p>
+                I graduated from the University of Leeds with a First-Class Honours degree in Computer Science in July
+                2023. My final year project involved creating a Skeletal Mesh Skinning Tool for real-time 3D Animation.
+            </p>
+
+            <p>
+                I am very hard working, programming is my biggest passion, and I program in most of my free time. I am
+                always eager to learn new technologies and improving my coding, always considering feedback I receive.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <h1 class="section-heading">Recommendations</h1>
+
+    <div class="recommendations-container">
+        {% include recommendation.html
+        dark_image_src="/assets/img/experience/self-employed-dark.svg"
+        light_image_src="/assets/img/experience/self-employed-light.svg"
+        text="Pawel is one of a kind — one of the best hires I've ever made. He's extremely smart, driven, and always
+        delivers his best under every circumstance. He has been a core pillar in the team..."
+        name="Carl Waddingham"
+        role="Programming Lead at&nbsp;XR&nbsp;Games" %}
+
+        {% include recommendation.html
+        dark_image_src="/assets/img/experience/self-employed-dark.svg"
+        light_image_src="/assets/img/experience/self-employed-light.svg"
+        text="Working with Pawel has been a pleasure throughout, from clear communication and responsiveness to
+        reliable, timely deliveries and clean, maintainable code!"
+        name="Kamil Jaworski"
+        role="CEO at Jaworski Software&nbsp;Solutions" %}
+
+        {% include recommendation.html
+        dark_image_src="/assets/img/experience/self-employed-dark.svg"
+        light_image_src="/assets/img/experience/self-employed-light.svg"
+        text="Pawel is a top class programmer who was incredibly reliable through the development of Starship Troopers!
+        He is a joy to work with and has an excellent hardworking attitude which reaps results!"
+        name="Jon Byles"
+        role="Senior Producer at&nbsp;XR&nbsp;Games" %}
+    </div>
+</section>

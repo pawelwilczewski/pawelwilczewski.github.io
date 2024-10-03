@@ -4,20 +4,16 @@ permalink: /categories/
 title: All Projects
 ---
 
+<main>
+    <header class="page-heading">
+        <h1>My Projects</h1>
+        {% include home-button.html %}
+    </header>
 
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
+    <div class="projects-grid">
+        {% for post in site.posts %}
+        {% include project-card.html post=post %}
+        {% endfor %}
+    </div>
 
-    <div class="category-head">{{ category_name }} Projects</div>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-        {% include meta.html post=post preview=true %}
-        {{ post.excerpt }}
-        <div class="more"><a href="{{ post.url | relative_url }}">Show Project</a></div>
-    </article>
-    {% endfor %}
-  </div>
-{% endfor %}
+</main>

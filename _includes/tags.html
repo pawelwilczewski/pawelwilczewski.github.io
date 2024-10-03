@@ -1,0 +1,17 @@
+<div class="tags">
+    {%- assign date_format = site.date_format -%}
+    <time datetime="{{ include.post.date | date_to_xmlschema }}">
+        {{ include.post.date | date: date_format }}
+    </time>
+    {% for category in include.post.categories %}
+    <span class="category">
+        {{ category }}
+    </span>
+    {% endfor %}
+    {% for tag in include.post.tags %}
+    <span class="tag">
+        {{ tag }}
+    </span>
+    {% endfor %}
+
+</div>

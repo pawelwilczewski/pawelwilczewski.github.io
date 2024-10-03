@@ -1,0 +1,50 @@
+$max-width: 1100px;
+$font-size: calc(0.8rem + 0.2vw) !default;
+$font-weight: 400 !default;
+$font-family: "Sora", "PT Sans", -apple-system, "Helvetica Neue", "Segoe UI", "Roboto", sans-serif !default;
+$heading-weight: 600 !default;
+$line-height: 1.6 !default;
+$shadow-length: 1rem !default;
+$small-width: 650px !default;
+$medium-width: 800px !default;
+$border-width: 1.5px !default;
+$border-full: 10000000px !default;
+
+:root {
+    --light-900: #ffffff;
+    --light-900-rgb: 255, 255, 255;
+    --light-800: #e9e9e9;
+    --light-700: #c9c9c9;
+    --light-600: #9f9f9f;
+    --light-500: #8d8d8d;
+
+    --dark-900: #000000;
+    --dark-900-rgb: 0, 0, 0;
+    --dark-800: #171717;
+    --dark-700: #2a2a2a;
+    --dark-500: #8d8d8d;
+
+    --primary: #94bbe9;
+    --primary-rgb: 149, 188, 233;
+    --secondary: #eeaeca;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --fg: var(--dark-800);
+        --bg: var(--light-900);
+        --bg-rgb: var(--light-900-rgb);
+        --muted-bg: var(--light-800);
+        --muted-fg: var(--dark-500);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fg: var(--light-900);
+        --bg: var(--dark-900);
+        --bg-rgb: var(--dark-900-rgb);
+        --muted-bg: var(--dark-700);
+        --muted-fg: var(--light-600);
+    }
+}

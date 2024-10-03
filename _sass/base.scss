@@ -1,0 +1,92 @@
+body {
+  width: 80%;
+  max-width: $max-width;
+  margin: 0 auto;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: $font-family;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+  min-height: 100vh;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $heading-weight;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3rem;
+  word-wrap: break-word;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+b, strong, th {
+  font-weight: $font-weight + 200;
+}
+
+p {
+  color: inherit;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: inherit;
+  transition: .2s background linear, .2s color linear;
+
+  &:hover {
+    color: var(--primary);
+  }
+}
+
+table {
+  display: inline-block;
+  max-width: 100%;
+  overflow-y: scroll;
+  border-spacing: 1px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px reduce(12) inset;
+}
+
+th, td {
+  padding: .5em 1em;
+  box-shadow: 0 0 0 1px reduce(12);
+}
+
+tr:hover, tr:nth-child(odd) td {
+  background: reduce(4);
+}
+
+code {
+  background-color: var(--muted-bg);
+  color: var(--muted-fg);
+  font-family: monospace;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
