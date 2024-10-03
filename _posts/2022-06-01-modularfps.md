@@ -12,10 +12,9 @@ tags: C++ UE
 Package of flexible components and assets for rapidly creating high-quality FPS games with minimal effort.
 
 
-`Unreal Engine` Template Project to be released on Fab. Aiming for high-quality assets and immersive,
-realistic gameplay combined with fluid movement for the best user experience. The logic is split between `C++` and
-`Blueprints` for good performance and ease of control. Networking support is incoming, as well as a plenty other
-features I set as a requirement for the first release.
+Template Project to be released on Fab. Aiming for high-quality assets and immersive,
+realistic gameplay combined with fluid, highly customisable movement with networking support. The logic is split between
+`C++` and `Blueprints` for good performance and ease of control.
 
 Work in progress.
 
