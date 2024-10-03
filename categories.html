@@ -11,11 +11,8 @@ title: All Projects
     </header>
 
     <div class="projects-grid">
-        {% for category in site.categories %}
-        {% capture category_name %}{{ category | first }}{% endcapture %}
-        {% for post in site.categories[category_name] %}
+        {% for post in site.posts %}
         {% include project-card.html post=post %}
-        {% endfor %}
         {% endfor %}
     </div>
 
