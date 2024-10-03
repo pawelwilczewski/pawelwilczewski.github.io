@@ -20,7 +20,8 @@ Main features and design:
 - Copy & paste, undo & redo.
 - Easy extendability and integration with external APIs (SDXL image generation shown in the video below).
 - Nodes defined as methods, supporting dependency injection - adding new functionality could not be simpler.
-- Automatic caching and optimal parallel execution.
+- Automatic computed result caching.
+- Optimal parallel execution.
 - Clean architecture & clean code.
 - Full persistence.
 - Theme support.
