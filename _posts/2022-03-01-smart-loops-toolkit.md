@@ -12,8 +12,8 @@ tags: Python Blender
 Add-on for speeding up modelling workflow.
 
 
-Whenever modelling in Blender, I always seemed to miss a few essential tools, which could have speeded up my workflow by
-a big margin. I decided to code them myself and pack them into an add-on. The documentation and all required information
+This add-on includes a few essential tools which can speed up modelling workflow by
+a big margin. The documentation and more information
 is available on [Blender Market](https://blendermarket.com/products/smart-loops-toolkit) and
 [Gumroad](https://pawelwilczewski.gumroad.com/l/smart-loops-toolkit).
 
