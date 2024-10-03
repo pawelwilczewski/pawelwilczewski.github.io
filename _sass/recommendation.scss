@@ -1,5 +1,6 @@
 .recommendation-container {
     padding: 1rem;
+    color: var(--fg) !important;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -28,7 +29,7 @@
     align-self: flex-start;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    padding: 0 3rem;
+    padding: 0 0.5rem;
     color: var(--muted-fg);
 }
 
