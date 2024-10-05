@@ -26,14 +26,14 @@ Main features and design:
 - Full persistence.
 - Theme support.
 
-{% include embed.html url="https://www.youtube.com/embed/1TASg7uvFLg" %}
-
 Tech stack:
 - ASP.NET Core
 - Blazor
 - Entity Framework Core
 - TailwindCSS
 - PostgreSQL
+
+{% include embed.html url="https://www.youtube.com/embed/1TASg7uvFLg" %}
 
 ![Node Editor Thumbnail](/assets/img/node-editor/light-theme.png){: width="70%" }
 *Light theme editor view*
