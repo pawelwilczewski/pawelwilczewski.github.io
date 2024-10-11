@@ -9,7 +9,7 @@ tags: C# Blazor
 
 <h2>{{ page.title }}</h2>
 
-General-purpose, easily extendable node-editing web application developed contract work.
+General-purpose, easily extendable node-editing web application developed as contract work.
 
 
 Contract project I developed for Jaworski Software Solutions Ltd as the main full stack developer in 6 months
