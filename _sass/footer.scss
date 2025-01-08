@@ -10,8 +10,12 @@ footer {
     justify-content: space-between;
     border-top: solid var(--muted-bg) $border-width;
     font-size: 1.1rem;
-}
 
-footer a {
-    color: inherit;
+    .copyright-text {
+        font-size: 0.9rem;
+    }
+
+    a {
+        color: inherit;
+    }
 }
