@@ -38,11 +38,12 @@ layout: index
     <h1 class="section-heading">Featured Work</h1>
 
     <div class="projects-grid">
-        {% for post in site.categories['Commercial'] %}
+        {% assign allPosts = site.categories['Commercial'] | concat: site.categories['Personal'] | concat: site.categories['University'] %}
+        {% for post in allPosts %}
         {% if
         post.title contains 'Starship Troopers'
         or post.title contains 'ZTDW Website'
-        or post.title contains 'Node Editor' %}
+        or post.title contains 'Gym Track' %}
         {% include project-card.html post=post %}
         {% endif %}
         {% endfor %}
