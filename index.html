@@ -61,6 +61,63 @@ layout: index
     <div class="experience-frames-container">
 
         {% include experience-frame.html
+        light_image_src="assets/img/experience/jaworski-light.svg"
+        dark_image_src="assets/img/experience/jaworski-dark.svg"
+        time="Feb 2024 - Present"
+        role_title="Software Engineer"
+        role_type="Contract"
+        role_slug="Full Stack Development"
+        icons='
+        <a title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
+            <picture>
+                <source srcset="/assets/img/software-icons/csharp-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp-light.svg">
+            </picture>
+        </a>
+        <a title="TypeScript" href="https://www.typescriptlang.org/">
+            <picture>
+                <source srcset="/assets/img/software-icons/typescript-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="TypeScript icon by https://icons8.com https://icons8.com/icon/cHBUT9SmrD2V/typescript" src="/assets/img/software-icons/typescript-light.svg">
+            </picture>
+        </a>
+        <a title="ASP.NET" href="https://dotnet.microsoft.com/en-us/apps/aspnet">
+            <picture>
+                <source srcset="/assets/img/software-icons/aspnet-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="ASP.NET Logo" src="/assets/img/software-icons/aspnet-light.svg">
+            </picture>
+        </a>
+        <a title="Blazor" href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor">
+            <picture>
+                <source srcset="/assets/img/software-icons/blazor-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="Blazor Logo" src="/assets/img/software-icons/blazor-light.svg">
+            </picture>
+        </a>
+        <a title="Next.js" href="https://nextjs.org/">
+            <picture>
+                <source srcset="/assets/img/software-icons/nextjs-dark.svg" media="(prefers-color-scheme: light)">
+                <img class="technology-icon" alt="Next.js Logo" src="/assets/img/software-icons/nextjs-light.svg">
+            </picture>
+        </a>
+        '
+        content="
+        <p>
+            During my contract at Jaworski Software Solutions I developed a full stack feature-rich, fully extendable
+            and customisable node editor web application. I was responsible for setting up
+            the project from the ground up using Blazor, Entity Framework Core, TailwindCSS, PostgreSQL utilising best
+            practices and clean architecture.
+        </p>
+        <p>
+            The application was designed to facilitate easy extending with no unnecessary boilerplate. Integration of
+            other APIs was made trivial, supporting dependency injection and multiple ways of registering new behaviour.
+            Nodes execution maximises parallel processing, and can be fully customised by the consumer.
+        </p>
+        <p>
+            I was also in charge of developing the frontend of a website for upholstery company, including creating
+            a trivially editable serialisation model for the content displayed, and styling components using Tailwind CSS.
+        </p>
+        " %}
+
+        {% include experience-frame.html
         light_image_src="assets/img/experience/xrgames-light.png"
         dark_image_src="assets/img/experience/xrgames-dark.png"
         time="Jun 2023 - Dec 2024"
@@ -99,47 +156,6 @@ layout: index
             strict platform requirements, overcoming engine limitations for smooth scene transitions. My contributions
             extended to various miscellaneous gameplay elements, including character customization, dialogue system,
             world interactions, collectibles, and more.
-        </p>
-        " %}
-
-        {% include experience-frame.html
-        light_image_src="assets/img/experience/jaworski-light.svg"
-        dark_image_src="assets/img/experience/jaworski-dark.svg"
-        time="Feb 2024 - Present"
-        role_title="Programmer"
-        role_type="Contract"
-        role_slug="Full Stack Development"
-        icons='
-        <a title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
-            <picture>
-                <source srcset="/assets/img/software-icons/csharp-dark.svg" media="(prefers-color-scheme: light)">
-                <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp-light.svg">
-            </picture>
-        </a>
-        <a title="Blazor" href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor">
-            <picture>
-                <source srcset="/assets/img/software-icons/blazor-dark.svg" media="(prefers-color-scheme: light)">
-                <img class="technology-icon" alt="Blazor Logo" src="/assets/img/software-icons/blazor-light.svg">
-            </picture>
-        </a>
-        <a title="ASP.NET" href="https://dotnet.microsoft.com/en-us/apps/aspnet">
-            <picture>
-                <source srcset="/assets/img/software-icons/aspnet-dark.svg" media="(prefers-color-scheme: light)">
-                <img class="technology-icon" alt="ASP.NET Logo" src="/assets/img/software-icons/aspnet-light.svg">
-            </picture>
-        </a>
-        '
-        content="
-        <p>
-            During my contract at Jaworski Software Solutions I developed a full stack feature-rich, fully extendable
-            and customisable node editor web application. I was responsible for setting up
-            the project from the ground up using Blazor, Entity Framework Core, TailwindCSS, PostgreSQL utilising best
-            practices and clean architecture.
-        </p>
-        <p>
-            The application was designed to facilitate easy extending with no unnecessary boilerplate. Integration of
-            other APIs was made trivial, supporting dependency injection and multiple ways of registering new behaviour.
-            Nodes execution maximises parallel processing, and can be fully customised by the consumer.
         </p>
         " %}
 
