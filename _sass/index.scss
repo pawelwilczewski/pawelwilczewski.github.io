@@ -8,7 +8,6 @@
 .hello-container {
   grid-column: 1 / 2;
   grid-row: 1;
-  margin-bottom: 1rem;
   margin-top: 12rem;
 }
 
@@ -36,6 +35,12 @@
 .job-title {
   font-size: 1.4rem;
   line-height: 1.2;
+  margin-bottom: 3rem;
+
+  .at-company {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
 }
 
 .location {
