@@ -10,7 +10,7 @@ layout: index
             <h1 class="name">I'm&nbsp;Pawel</h1>
         </div>
         <div class="base-info-container">
-            <div class="job-title">Software&nbsp;Developer<br><span class="at-company">@&nbsp;Innovez&nbsp;Limited</span></div>
+            <div class="job-title">Junior&nbsp;Software&nbsp;Engineer<br><span class="at-company">@&nbsp;Genius&nbsp;Sports</span></div>
             <div class="location">
                 <svg aria-hidden=true class="icon">
                     <use xlink:href="/assets/fontawesome/icons.svg#location-dot"></use>
@@ -61,9 +61,30 @@ layout: index
     <div class="experience-frames-container">
 
         {% include experience-frame.html
+            light_image_src="assets/img/experience/genius-sports-light.svg"
+            dark_image_src="assets/img/experience/genius-sports-dark.svg"
+            time="Apr 2025 - Present"
+            role_title="Junior Software Engineer"
+            role_type="Full Time"
+            role_slug=".NET Backend Development"
+            icons='
+            <a title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
+                <picture>
+                    <source srcset="/assets/img/software-icons/csharp-dark.svg" media="(prefers-color-scheme: light)">
+                    <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp-light.svg">
+                </picture>
+            </a>
+            '
+            content='
+            <p>
+                Developing sports data solutions.
+            </p>
+            ' %}
+
+        {% include experience-frame.html
             light_image_src="assets/img/experience/innovez-light.png"
             dark_image_src="assets/img/experience/innovez-dark.png"
-            time="Mar 2025 - Present"
+            time="Mar 2025 - Apr 2025"
             role_title="Software Developer"
             role_type="Full Time"
             role_slug="Energy Trading Software Development"
