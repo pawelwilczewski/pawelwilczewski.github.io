@@ -53,12 +53,13 @@
   display: flex;
   gap: 2rem;
   margin-bottom: 12rem;
+  min-width: 17rem;
 }
 
 .intro-picture {
   grid-column: 2;
   grid-row: 1 / 4;
-  width: 90%;
+  width: 50%;
   justify-self: center;
 }
 
@@ -79,7 +80,8 @@
     grid-column: 1;
     grid-row: 2;
     height: auto;
-    width: 100%;
+    width: 50%;
+    margin-bottom: 2rem;
   }
 
   .base-info-container {
