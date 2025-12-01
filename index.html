@@ -41,7 +41,7 @@ layout: index
         {% assign allPosts = site.categories['Commercial'] | concat: site.categories['Personal'] | concat: site.categories['University'] %}
         {% for post in allPosts %}
         {% if
-        post.title contains 'Starship Troopers'
+        post.title contains 'Node Editor'
         or post.title contains 'FuncNet'
         or post.title contains 'Gym Track' %}
         {% include project-card.html post=post %}
