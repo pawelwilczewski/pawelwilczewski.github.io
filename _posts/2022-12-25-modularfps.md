@@ -16,8 +16,6 @@ Template Project to be released on Fab. Aiming for high-quality assets and immer
 realistic gameplay combined with fluid, highly customisable movement with networking support. The logic is split between
 `C++` and `Blueprints` for good performance and ease of control.
 
-Work in progress.
-
 ## Gallery
 
 {% include embed.html url="https://www.youtube.com/embed/zQ9gjgUD3ZQ" %}

@@ -42,7 +42,7 @@ layout: index
         {% for post in allPosts %}
         {% if
         post.title contains 'Starship Troopers'
-        or post.title contains 'ZTDW Website'
+        or post.title contains 'FuncNet'
         or post.title contains 'Gym Track' %}
         {% include project-card.html post=post %}
         {% endif %}
@@ -67,7 +67,7 @@ layout: index
             role_title="Software Engineer II"
             role_type="Full Time"
             role_company="Genius Sports"
-            role_slug=".NET Backend Development"
+            role_slug="Sportsbook Backend Development"
             icons='
             <a title="C#" href="https://dotnet.microsoft.com/en-us/languages/csharp">
                 <picture>
@@ -75,10 +75,37 @@ layout: index
                     <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp-light.svg">
                 </picture>
             </a>
+            <a title="PostgreSQL" href="https://www.postgresql.org/">
+                <picture>
+                    <source srcset="/assets/img/software-icons/postgresql-dark.png" media="(prefers-color-scheme: light)">
+                    <img class="technology-icon" alt="PostgreSQL Logo" src="/assets/img/software-icons/postgresql-light.png">
+                </picture>
+            </a>
+            <a title="ASP.NET" href="https://dotnet.microsoft.com/en-us/apps/aspnet">
+                <picture>
+                    <source srcset="/assets/img/software-icons/aspnet-dark.svg" media="(prefers-color-scheme: light)">
+                    <img class="technology-icon" alt="ASP.NET Logo" src="/assets/img/software-icons/aspnet-light.svg">
+                </picture>
+            </a>
+            <a title="AWS" href="https://aws.amazon.com/">
+                <picture>
+                    <source srcset="/assets/img/software-icons/aws-dark.svg" media="(prefers-color-scheme: light)">
+                    <img class="technology-icon" alt="AWS Logo" src="/assets/img/software-icons/aws-light.svg">
+                </picture>
+            </a>
+            <a title="Kubernetes" href="https://kubernetes.io/">
+                <picture>
+                    <source srcset="/assets/img/software-icons/kubernetes-dark.png" media="(prefers-color-scheme: light)">
+                    <img class="technology-icon" alt="Kubernetes Logo" src="/assets/img/software-icons/kubernetes-light.png">
+                </picture>
+            </a>
             '
             content='
             <p>
-                Developing sports data solutions.
+                Developing and maintained real-time, high-availability match-state processing services, applying test-driven and behaviour-driven development techniques.
+                Implemented automated re-resulting workflows for markets, improving settlement accuracy and reducing manual intervention.
+                Participated in live-support rotations, promptly diagnosing and fixing production incidents and client-reported bugs.
+                Contributed to key infrastructure upgrades, expanded monitoring dashboards and SLO alerting.
             </p>
             ' %}
 
@@ -97,6 +124,12 @@ layout: index
                     <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp-light.svg">
                 </picture>
             </a>
+            <a title="PostgreSQL" href="https://www.postgresql.org/">
+                <picture>
+                    <source srcset="/assets/img/software-icons/postgresql-dark.png" media="(prefers-color-scheme: light)">
+                    <img class="technology-icon" alt="PostgreSQL Logo" src="/assets/img/software-icons/postgresql-light.png">
+                </picture>
+            </a>
             <a title="ASP.NET" href="https://dotnet.microsoft.com/en-us/apps/aspnet">
                 <picture>
                     <source srcset="/assets/img/software-icons/aspnet-dark.svg" media="(prefers-color-scheme: light)">
@@ -112,7 +145,11 @@ layout: index
             '
             content='
             <p>
-                Developing energy trading software and infrastructure around it. Products developed by the company can be seen at the <a href="https://innovez.com/">Innovez website</a>.
+                Developed features for Energy Trading Risk Management software, including analytical and usability enhancements, while maintaining legacy code.
+                Implemented SignalR-backed network communication to offload local calculations to OLAP cubes.
+                Leveraged C# WPF, SQL Server, and PostgreSQL for backend development, applying object-oriented design principles
+                to ensure performant, correct, and maintainable code.
+                Created advanced custom UI components in TypeScript with React using Redux for state management.
             </p>
             ' %}    
 
@@ -130,6 +167,12 @@ layout: index
                 <source srcset="/assets/img/software-icons/csharp-dark.svg" media="(prefers-color-scheme: light)">
                 <img class="technology-icon" alt="C# Logo" src="/assets/img/software-icons/csharp-light.svg">
             </picture>
+        </a>
+        <a title="PostgreSQL" href="https://www.postgresql.org/">
+                <picture>
+                    <source srcset="/assets/img/software-icons/postgresql-dark.png" media="(prefers-color-scheme: light)">
+                    <img class="technology-icon" alt="PostgreSQL Logo" src="/assets/img/software-icons/postgresql-light.png">
+                </picture>
         </a>
         <a title="TypeScript" href="https://www.typescriptlang.org/">
             <picture>
@@ -291,9 +334,6 @@ layout: index
             .NET
         </div>
         <div class="skill">
-            Gameplay Programming
-        </div>
-        <div class="skill">
             Full Stack Development
         </div>
         <div class="skill">
@@ -312,13 +352,22 @@ layout: index
             Optimisation & Performance
         </div>
         <div class="skill">
-            Object-oriented Approaches
-        </div>
-        <div class="skill">
             Functional Programming
         </div>
         <div class="skill">
+            Object-oriented Approaches
+        </div>
+        <div class="skill">
             Managing Technical Debt
+        </div>
+        <div class="skill">
+            Kubernetes
+        </div>
+        <div class="skill">
+            PostgreSQL
+        </div>
+        <div class="skill">
+            SQL&nbsp;Server
         </div>
     </div>
 </section>
@@ -338,24 +387,21 @@ layout: index
             </p>
 
             <p>
-                My latest work experience includes developing <a href="https://innovez.com/">energy trading software</a> at Innovez Limited,
+                My latest work experience includes developing <a href="https://geniussports.com/">sports betting solutions</a> at Genius Sports, <a href="https://innovez.com/">energy trading software</a> at Innovez Limited,
                 a <a href="/commercial/starship-troopers/">VR game</a> at XR Games and a
-                <a href="/commercial/node-editor/">Blazor application</a> for Jaworski
-                Software Solutions. I am the author of
-                three successful Blender add-ons available on
-                <a href="https://blendermarket.com/creators/pawel-wilczewski">Blender Market</a>.
-                Among other projects, I currently work on <a href="/commercial/modularfps/">ModularFPS</a> &#8212;
-                an Unreal Engine 5 template for rapid and quality First Person Shooter development.
+                <a href="/commercial/node-editor/">full-stack applications</a> for Jaworski
+                Software Solutions. I am the author of three successful Blender add-ons available on
+                <a href="https://blendermarket.com/creators/pawel-wilczewski">Superhive Market</a>.
             </p>
 
             <p>
                 I graduated from the University of Leeds with a First-Class Honours degree in Computer Science in July
-                2023. My final year project involved creating a Skeletal Mesh Skinning Tool for real-time 3D Animation.
+                2023. My final year project involved creating a GUI Skeletal Mesh Skinning Tool for real-time 3D Animation.
             </p>
 
             <p>
-                I am very hard working, programming is my biggest passion, and I program in most of my free time. I am
-                always eager to learn new technologies and improving my coding, always considering feedback I receive.
+                I am very hard working and programming is my biggest passion. I try program in most of my free time. I am
+                always eager to learn new technologies and improving my coding, always considering the feedback I receive.
             </p>
         </div>
 
